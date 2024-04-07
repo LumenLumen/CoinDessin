@@ -1,1 +1,7 @@
-<p>menu works!</p>
+<table class="menu">
+    <th *ngFor="let link of navLinks; let i = index" [ngClass]="i === activeLinkIndex ? 'active-case' : ''">
+      <a [routerLink]="link.link" routerLinkActive #rla="routerLinkActive" (click)="navigate(link.link)">
+        {{ link.label }}
+      </a>
+    </th>
+  </table>

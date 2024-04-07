@@ -2,6 +2,7 @@ import { BrowserModule } from "@angular/platform-browser";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from '@angular/router';
+import { LocationStrategy, HashLocationStrategy } from "@angular/common";
 
 import { GalerieComponent } from "./pages/galerie/galerie.component";
 import { CommandesComponent } from "./pages/commandes/commandes.component";
@@ -25,6 +26,11 @@ const appRoutes: Routes = [
         CommandesComponent,
         GalerieComponent,
         ProjetsComponent
+    ],
+    providers: [
+        {
+            provide: LocationStrategy, useClass: HashLocationStrategy
+        }
     ],
     imports: [
         MenuComponent,

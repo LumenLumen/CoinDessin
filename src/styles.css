@@ -14,8 +14,18 @@ body {
 }
 
 p {
-    text-align: center;
+    text-align: justify;
 }
+h1 {
+    color : var(--rouge)
+}
+h2 {
+    color: var(--orange);
+}
+h3{
+    color: var(--vert);
+}
+
 
 a {
     text-decoration: none;

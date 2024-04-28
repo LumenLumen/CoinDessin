@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --noir: #191919;
+    --orange: #FF9557;
+    --vert: #9FDA96;
+    --rouge: #E94B4D;
+    --jaune: #FFDF81;
+    --blanc: #EBE6DA;
+}
+  
+
+body {
+    background-color: var(--blanc);
+    color: var(--noir)
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--rouge)
+}
+
+a:visited {
+    color: var(--rouge);
+}
+
+a:hover {
+    color: var(--orange);
+}
+
+

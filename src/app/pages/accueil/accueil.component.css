@@ -1,15 +1,18 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    width: 100%;
-  }
-  .grid-item {
-    background-color: #191919;
-    border: 1px solid #FFDF81;
-    color: #FFDF81;
-    padding: 10px;
-    flex : 0 0 25%;
-    font-size: 14px;
-    text-align: center;
+table{
+  width: 100%;
 
-  }
+  vertical-align: center;
+  text-align: justify;
+}
+
+#profilepic {
+  border-radius: 50%;
+}
+
+#presentation td{
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}

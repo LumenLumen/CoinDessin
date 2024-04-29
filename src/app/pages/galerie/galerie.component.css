@@ -1,0 +1,13 @@
+.wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.wrap div {
+    width: 300px;
+}
+
+h1, h2, h3{
+    text-align: center;
+}

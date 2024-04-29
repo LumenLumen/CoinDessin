@@ -11,6 +11,9 @@ import { ProjetsComponent } from "./pages/projets/projets.component";
 
 import { MenuComponent } from "./components/menu/menu.component";
 import { HeaderComponent } from "./components/header/header.component";
+import { ExpositionComponent } from "./components/exposition/exposition.component";
+import { AppComponent } from "./app.component";
+
 
 const appRoutes: Routes = [
     { path: '', redirectTo: '/pages/accueil', pathMatch: 'full' },
@@ -20,8 +23,10 @@ const appRoutes: Routes = [
     { path: 'pages/projets', component: ProjetsComponent}
 ];
 
+/*
 @NgModule({
     declarations: [
+        AppComponent,
         AccueilComponent,
         CommandesComponent,
         GalerieComponent,
@@ -35,9 +40,10 @@ const appRoutes: Routes = [
     imports: [
         MenuComponent,
         HeaderComponent,
+        ExpositionComponent,
         BrowserModule,
         BrowserAnimationsModule,
         RouterModule.forRoot(appRoutes)
     ]
 })
-export class AppModule {}
+export class AppModule {}*/

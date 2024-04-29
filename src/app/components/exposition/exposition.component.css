@@ -1,0 +1,23 @@
+#image {
+    background-position: center;
+    background-size: cover;
+
+    width: 300px;
+    height: 200px;
+}
+
+#texte {
+    width: 300px;
+    height: 100px;
+    overflow: scroll;
+}
+
+#all {
+    border : solid 1px var(--vert);
+    width: 300px;
+}
+
+h3{
+    text-align: center;
+    color: var(--orange)
+}

@@ -1,20 +1,21 @@
 #image {
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 
     width: 300px;
-    height: 200px;
+    height: 300px;
 }
 
 #texte {
     width: 300px;
-    height: 100px;
-    overflow: scroll;
 }
 
 #all {
     border : solid 1px var(--vert);
     width: 300px;
+    height: 300px;
+    overflow: scroll;
 }
 
 h3{

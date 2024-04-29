@@ -9,5 +9,7 @@ import { ExpositionComponent } from '../../components/exposition/exposition.comp
   styleUrl: './galerie.component.css'
 })
 export class GalerieComponent {
-
+  scrollToElement(element: any): void {
+    (document.getElementById(element) as HTMLElement).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  }
 }

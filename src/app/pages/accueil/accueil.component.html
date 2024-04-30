@@ -14,7 +14,7 @@
 </table>
 
 <!-- CONTACT -->
-<h1>_______ <br><br>Contact</h1>
+<h1 id="cont">_______ <br><br>Contact</h1>
 <p>Vous pouvez me retrouver sur différents réseaux. N'hésitez pas à me contacter, ma messagerie est toujours grande ouverte !</p>
 
 <table id="contact">
@@ -50,7 +50,7 @@
 
 <!-- NOUVEAUTES / SITE UPDATE --><br>
 
-<h1>_______ <br><br>Nouveautés</h1>
+<h1 id="new">_______ <br><br>Nouveautés</h1>
 
 <table>
   <tr>
@@ -73,3 +73,13 @@
     </td>
   </tr>
 </table>
+
+<!--RACOURCI-->
+<div id="racc">
+  <table>
+      <tr>
+          <td><a (click)="scrollToElement('cont')">Contact</a> </td>
+          <td><a (click)="scrollToElement('new')">Nouveautés</a></td>
+      </tr>
+  </table>
+</div>

@@ -7,18 +7,6 @@
     La plupart du temps, la date du dessin est écrit sur celui-ci. Vous pouvez scroller sur les cases pour avoir un petit complément d'information. N'hésitez pas me contacter pour tous renseignements !</p>
 <br>
 
-<!--RACOURCI-->
-<div id="racc">
-<table>
-    <tr>
-        <td><a (click)="scrollToElement('scene')">Scene</a> </td>
-        <td><a (click)="scrollToElement('sketchpage')">Sketch page</a></td>
-        <td><a (click)="scrollToElement('design')">Design</a></td>
-        <td><a (click)="scrollToElement('animation')">Animations</a></td>
-        <td><a (click)="scrollToElement('divers')">Divers</a></td>
-    </tr>
-  </table></div>
-
 <!--------------- SCENE ------------------->
 <h1 id="scene">_______ <br><br>Scene</h1>
 <div class="wrap">
@@ -49,7 +37,7 @@
         <app-exposition img="assets/Galerie/002.png" title="Pigné" legende="Pigné est un petit dragon né avec une malformation : il n'a pas d'aile ! La couleur de ses appendices varie selon ses émotions."></app-exposition>
     </div>
     <div>
-        <app-exposition img="assets/Galerie/017.png" title="Buster" legende="Buster est le plus vieux de mes personnages ! Il a énormément évolué : on passe d'un assassion à un herboriste."></app-exposition>
+        <app-exposition img="assets/Galerie/017.png" title="Buster" legende="Buster est le plus vieux de mes personnages ! Il a énormément évolué : on passe d'un assassin à un herboriste."></app-exposition>
     </div>
     <div>
         <app-exposition img="assets/Galerie/022.png" title="Thoo et les vêtements" legende="J'ai cherché un moment avant de trouver la tenue parfaite pour notre dragon en herbe."></app-exposition>
@@ -70,7 +58,7 @@
         <app-exposition img="assets/Galerie/006.png" title="Le tigre calico" legende="Ce jeune ami est un tigre à deux queues. Des fleurs de laurier ornent son pelage calico. La légende raconte que ses congénères peignent eux-mêmes les rayures sur le dos de leurs petits. Ils peuvent également peindre des runes qui leur confère des pouvoirs magiques !"></app-exposition>
     </div>
     <div>
-        <app-exposition img="assets/Galerie/009.png" title="Rachel" legende="Rachel est un raton laveur que j'ai crée, c'est le premier que je dessine ! J'aime beaucoup ses couleurs et la douceur de son design !"></app-exposition>
+        <app-exposition img="assets/Galerie/009.png" title="Rachel" legende="Rachel est un raton laveur que j'ai créé, c'est le premier que je dessine ! J'aime beaucoup ses couleurs et la douceur de son design !"></app-exposition>
     </div>
     <div>
         <app-exposition img="assets/Galerie/008.png" title="Le félinivore !" legende="Vous avez des problèmes d'insectes chez vous ? Voici la solution : le félinivore ! Adieu les mouches, les moustiques et autres bestioles ! Chasse les rongeurs en bonus. Satisfait ou remboursé !"></app-exposition>
@@ -132,4 +120,17 @@
     <div>
         <app-exposition img="assets/Galerie/024.png" title="Ref sheet de Médien" legende="Médien est mon dragon légendaire qui vit cacher sous forme humaine. D'ailleurs, ça le saoule d'être le 'dragon protecteur gnagnagna...'."></app-exposition>
     </div>
+</div>
+
+<!--RACOURCI-->
+<div id="racc">
+    <table>
+        <tr>
+            <td><a (click)="scrollToElement('scene')">Scene</a> </td>
+            <td><a (click)="scrollToElement('sketchpage')">Sketch page</a></td>
+            <td><a (click)="scrollToElement('design')">Design</a></td>
+            <td><a (click)="scrollToElement('anim')">Animations</a></td>
+            <td><a (click)="scrollToElement('divers')">Divers</a></td>
+        </tr>
+    </table>
 </div>

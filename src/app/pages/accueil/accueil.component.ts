@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './accueil.component.css'
 })
 export class AccueilComponent {
-
+  scrollToElement(element: any): void {
+    (document.getElementById(element) as HTMLElement).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  }
 }

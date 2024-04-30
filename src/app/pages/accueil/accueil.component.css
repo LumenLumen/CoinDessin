@@ -5,10 +5,6 @@ table{
   text-align: justify;
 }
 
-table td{
-  padding: 10px;
-}
-
 .roundimg {
   border-radius: 50%;
 }
@@ -22,15 +18,34 @@ h1, h2, h3{
 }
 
 
+#racc table{
+  width: 600px;
+
+  vertical-align: center;
+  text-align: center;    
+}
+
+#racc table td{
+  border-radius: 30%;
+  background-color: var(--rouge);
+}
+
+#racc table a{
+  color: var(--blanc);
+}
+#racc table a:hover{
+  color: var(--jaune);
+}
+
+#racc{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+
 @media only screen and (max-width: 600px){
-  table{
-    width: 600px;
-  
-    vertical-align: center;
-    text-align: justify;
-  }
-  
-  table td{
-    padding: 10px;
+  #racc table a{
+    font-size: 20px;
   }
 }

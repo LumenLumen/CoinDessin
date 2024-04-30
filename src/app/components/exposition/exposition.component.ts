@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+
 @Component({
   selector: 'app-exposition',
   standalone: true,
@@ -12,4 +13,5 @@ export class ExpositionComponent {
   @Input() img: string="";
   @Input() title: string="Sans titre"
   @Input() legende: string="Bla bla bla..."
+
 }

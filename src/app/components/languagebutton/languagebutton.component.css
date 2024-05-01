@@ -1,0 +1,9 @@
+span {
+    font-size: 20px;
+    color: var(--noir);
+}
+
+button{
+    width: 150px;
+}
+

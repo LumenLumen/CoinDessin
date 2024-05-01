@@ -10,7 +10,8 @@
 
 body {
     background-color: var(--blanc);
-    color: var(--noir)
+    color: var(--noir);
+    padding: 10px;
 }
 
 @media only screen and (max-width: 600px){

@@ -1,0 +1,4 @@
+<button (click)="toggleLng()">
+    <span *ngIf="settingsService.lng === 'fr'">🇬🇧 English</span>
+    <span *ngIf="settingsService.lng === 'en'">🇫🇷 Français</span>
+</button>

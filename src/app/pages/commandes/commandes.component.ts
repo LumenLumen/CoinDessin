@@ -1,14 +1,18 @@
 import { Component } from '@angular/core';
-import { Location } from '@angular/common';
+import { CommonModule } from '@angular/common';
+import { FrCommandesComponent } from '../../components/fr-commandes/fr-commandes.component';
+import { EnCommandesComponent } from '../../components/en-commandes/en-commandes.component';
+import { SettingService } from '../../components/languagebutton/languagesettings.service';
 
 @Component({
   selector: 'app-commandes',
+  standalone: true,
   templateUrl: './commandes.component.html',
-  styleUrl: './commandes.component.css'
+  styleUrl: './commandes.component.css',
+  imports: [FrCommandesComponent, EnCommandesComponent, CommonModule]
 })
 
 export class CommandesComponent {
-  scrollToElement(element: any): void {
-    (document.getElementById(element) as HTMLElement).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-  }
+
+  constructor(public settingsService: SettingService) { }
 }

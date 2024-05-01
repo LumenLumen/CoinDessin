@@ -5,8 +5,11 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './en-galerie.component.html',
-  styleUrl: './en-galerie.component.css'
+  styleUrl: '../../pages/galerie/galerie.component.css'
 })
 export class EnGalerieComponent {
 
+  scrollToElement(element: any): void {
+    (document.getElementById(element) as HTMLElement).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  }
 }

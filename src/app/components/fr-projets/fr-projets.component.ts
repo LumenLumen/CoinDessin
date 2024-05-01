@@ -5,8 +5,12 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './fr-projets.component.html',
-  styleUrl: './fr-projets.component.css'
+  styleUrl: '../../pages/projets/projets.component.css'
 })
 export class FrProjetsComponent {
 
+  scrollToElement(element: any): void {
+    (document.getElementById(element) as HTMLElement).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  }
+  
 }

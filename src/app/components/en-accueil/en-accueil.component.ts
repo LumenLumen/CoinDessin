@@ -10,4 +10,8 @@ import { Component } from '@angular/core';
 
 export class EnAccueilComponent {
 
+  scrollToElement(element: any): void {
+    (document.getElementById(element) as HTMLElement).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  }
+  
 }

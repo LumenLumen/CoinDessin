@@ -8,3 +8,9 @@ img {
     top : 15px ;
     left: 15px;
 }
+
+@media only screen and (max-width: 770px){
+    #button {
+        top : 30px ;
+    }
+}

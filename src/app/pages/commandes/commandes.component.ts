@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FrCommandesComponent } from '../../components/fr-commandes/fr-commandes.component';
-import { EnCommandesComponent } from '../../components/en-commandes/en-commandes.component';
-import { SettingService } from '../../components/languagebutton/languagesettings.service';
+import { FrCommandesComponent } from '../../components_wilbedel/fr-commandes/fr-commandes.component';
+import { EnCommandesComponent } from '../../components_wilbedel/en-commandes/en-commandes.component';
+import { SettingService } from '../../core/components/languagebutton/languagesettings.service';
 
 @Component({
   selector: 'app-commandes',

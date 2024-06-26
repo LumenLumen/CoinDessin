@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { FrAccueilComponent } from '../../components/fr-accueil/fr-accueil.component';
-import { EnAccueilComponent } from '../../components/en-accueil/en-accueil.component';
-import { SettingService } from '../../components/languagebutton/languagesettings.service';
+import { FrAccueilComponent } from '../../components_wilbedel/fr-accueil/fr-accueil.component';
+import { EnAccueilComponent } from '../../components_wilbedel/en-accueil/en-accueil.component';
+import { SettingService } from '../../core/components/languagebutton/languagesettings.service';
 import { CommonModule } from '@angular/common';
 
 @Component({

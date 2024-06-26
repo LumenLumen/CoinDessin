@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FrProjetsComponent } from '../../components/fr-projets/fr-projets.component';
-import { EnProjetsComponent } from '../../components/en-projets/en-projets.component';
-import { SettingService } from '../../components/languagebutton/languagesettings.service';
+import { FrProjetsComponent } from '../../components_wilbedel/fr-projets/fr-projets.component';
+import { EnProjetsComponent } from '../../components_wilbedel/en-projets/en-projets.component';
+import { SettingService } from '../../core/components/languagebutton/languagesettings.service';
 
 
 @Component({

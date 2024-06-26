@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FrGalerieComponent } from '../../components/fr-galerie/fr-galerie.component';
-import { EnGalerieComponent } from '../../components/en-galerie/en-galerie.component';
-import { SettingService } from '../../components/languagebutton/languagesettings.service';
+import { FrGalerieComponent } from '../../components_wilbedel/fr-galerie/fr-galerie.component';
+import { EnGalerieComponent } from '../../components_wilbedel/en-galerie/en-galerie.component';
+import { SettingService } from '../../core/components/languagebutton/languagesettings.service';
 
 @Component({
   selector: 'app-galerie',

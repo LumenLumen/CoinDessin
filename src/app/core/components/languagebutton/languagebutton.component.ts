@@ -1,11 +1,8 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { SettingService } from './languagesettings.service';
 
 @Component({
   selector: 'app-languagebutton',
-  standalone: true,
-  imports: [CommonModule],
   templateUrl: './languagebutton.component.html',
   styleUrl: './languagebutton.component.css'
 })

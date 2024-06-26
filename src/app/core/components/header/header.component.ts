@@ -4,8 +4,6 @@ import { LanguagebuttonComponent } from '../languagebutton/languagebutton.compon
 
 @Component({
   selector: 'app-header',
-  standalone: true,
-  imports: [MenuComponent, LanguagebuttonComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })

@@ -1,49 +1,26 @@
-import { BrowserModule } from "@angular/platform-browser";
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from "@angular/core";
-import { RouterModule, Routes } from '@angular/router';
 import { LocationStrategy, HashLocationStrategy } from "@angular/common";
+import { RouterModule, Routes } from "@angular/router";
 
-import { GalerieComponent } from "./pages/galerie/galerie.component";
-import { CommandesComponent } from "./pages/commandes/commandes.component";
-import { AccueilComponent } from "./pages/accueil/accueil.component";
-import { ProjetsComponent } from "./pages/projets/projets.component";
+import { AccueilModule } from "./accueil/accueil.module";
+import { CommissionModule } from "./commission/commission.module";
+import { GalerieModule } from "./galerie/galerie.module";
+import { ProjetsModule } from "./projets/projets.module";
+import { CoreModule } from "./core/core.module";
 
-import { MenuComponent } from "./components/menu/menu.component";
-import { HeaderComponent } from "./components/header/header.component";
-import { ExpositionComponent } from "./components/exposition/exposition.component";
-import { AppComponent } from "./app.component";
-
-
-const appRoutes: Routes = [
-    { path: '', redirectTo: '/pages/accueil', pathMatch: 'full' },
-    { path: 'pages/accueil', component: AccueilComponent},
-    { path: 'pages/commandes', component: CommandesComponent },
-    { path: 'pages/galerie', component: GalerieComponent},
-    { path: 'pages/projets', component: ProjetsComponent}
-];
-
-/*
 @NgModule({
-    declarations: [
-        AppComponent,
-        AccueilComponent,
-        CommandesComponent,
-        GalerieComponent,
-        ProjetsComponent
-    ],
+    declarations: [],
     providers: [
         {
             provide: LocationStrategy, useClass: HashLocationStrategy
         }
     ],
     imports: [
-        MenuComponent,
-        HeaderComponent,
-        ExpositionComponent,
-        BrowserModule,
-        BrowserAnimationsModule,
-        RouterModule.forRoot(appRoutes)
+        AccueilModule,
+        CommissionModule,
+        GalerieModule,
+        ProjetsModule,
+        CoreModule
     ]
 })
-export class AppModule {}*/
+export class AppModule {}

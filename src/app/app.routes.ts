@@ -1,17 +1,12 @@
 import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
-import { CommandesComponent } from './pages/commandes/commandes.component';
-import { AccueilComponent } from './pages/accueil/accueil.component';
-import { GalerieComponent } from './pages/galerie/galerie.component';
-import { ProjetsComponent } from './pages/projets/projets.component';
-
 
 export const routes: Routes = [
-    { path: '', redirectTo: '/pages/accueil', pathMatch: 'full' },
-    { path: 'pages/accueil', component: AccueilComponent},
-    { path: 'pages/commandes', component: CommandesComponent },
-    { path: 'pages/galerie', component: GalerieComponent},
-    { path: 'pages/projets', component: ProjetsComponent}
+    {path: 'accueil', loadChildren: () => import('./accueil/accueil.module').then(m => m.AccueilModule)},
+    {path: 'commande', loadChildren: () => import('./commission/commission.module').then(m => m.CommissionModule)},
+    {path: 'galerie', loadChildren: () => import('./galerie/galerie.module').then(m => m.GalerieModule)},
+    {path: 'projets', loadChildren: () => import('./projets/projets.module').then(m => m.ProjetsModule)},
+    {path: '**', redirectTo: 'accueil'}
 ];
 
 @NgModule({

@@ -8,12 +8,16 @@ import { SettingService } from './languagesettings.service';
 })
 export class LanguagebuttonComponent {
 
-  constructor(public settingsService: SettingService) { }
+  constructor(private settingService: SettingService) { }
 
   toggleLng() {
-    if (this.settingsService) {
-      this.settingsService.lng = this.settingsService.lng === 'fr' ? 'en' : 'fr';
-      localStorage.setItem('lng', this.settingsService.lng);
+    if (this.settingService) {
+      this.settingService.lng === 'fr' ? this.settingService.setLng('en') : this.settingService.setLng('fr');
+      localStorage.setItem('lng', this.settingService.lng);
     }
+  }
+
+  getLng() : string {
+    return this.settingService.getLng();
   }
 }

@@ -4,11 +4,14 @@
         <img src="assets/Profile.png" alt="profile picture">
       </td>
       <td>
-        <p>Je suis Lumen, étudiante en informatique. Je dessine sur mon temps libre et créé de petites ou grandes histoires. J'espère pouvoir vous émerveiller avec mon univers fantaisiste ! Je travaille essentiellement avec des créatures venues de contrées inatteignables. Je vous souhaite une agréable épopée à travers les pages de ce site !</p>
+        <p *ngIf="getLng() === 'fr'">Je suis Lumen, étudiante en informatique. Je dessine sur mon temps libre et créé de petites ou grandes histoires. J'espère pouvoir vous émerveiller avec mon univers fantaisiste ! Je travaille essentiellement avec des créatures venues de contrées inatteignables. Je vous souhaite une agréable épopée à travers les pages de ce site !</p>
+        <p *ngIf="getLng() === 'en'">I'm Lumen, a student in computer science. I'm a hobbyist artist and I like to create small or great stories. I hope you'll enjoy my wonderful and fantasy universe ! I mainly work with weird and colorful creatures from far away countries. I wish you a pleasant travel across this website ! May the magic guide your cursor ! </p>
       </td>
     </tr>
 </table>
 
-<app-contact></app-contact>
+<fr-app-contact *ngIf="getLng() === 'fr'"></fr-app-contact>
+<app-en-contact *ngIf="getLng() === 'en'"></app-en-contact>
 
-<app-website-maj></app-website-maj>
+<fr-app-website-maj *ngIf="getLng() === 'fr'"></fr-app-website-maj>
+<app-en-website-maj *ngIf="getLng() === 'en'"></app-en-website-maj>

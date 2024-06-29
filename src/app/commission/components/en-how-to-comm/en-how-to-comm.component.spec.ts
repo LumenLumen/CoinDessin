@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WebsiteMAJComponent } from './website-maj.component';
+import { EnHowToCommComponent } from './en-how-to-comm.component';
 
-describe('WebsiteMAJComponent', () => {
-  let component: WebsiteMAJComponent;
-  let fixture: ComponentFixture<WebsiteMAJComponent>;
+describe('EnHowToCommComponent', () => {
+  let component: EnHowToCommComponent;
+  let fixture: ComponentFixture<EnHowToCommComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [WebsiteMAJComponent]
+      imports: [EnHowToCommComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(WebsiteMAJComponent);
+    fixture = TestBed.createComponent(EnHowToCommComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

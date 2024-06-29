@@ -5,12 +5,8 @@ img {
 
 #button {
     position :absolute;
-    top : 15px ;
-    left: 15px;
+    top : 0px ;
+    left: 0px;
 }
 
-@media only screen and (max-width: 770px){
-    #button {
-        top : 30px ;
-    }
-}
+@media only screen and (max-width: 770px){}

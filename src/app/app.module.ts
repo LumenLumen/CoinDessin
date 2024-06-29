@@ -1,6 +1,5 @@
 import { NgModule } from "@angular/core";
 import { LocationStrategy, HashLocationStrategy } from "@angular/common";
-import { RouterModule, Routes } from "@angular/router";
 
 import { AccueilModule } from "./accueil/accueil.module";
 import { CommissionModule } from "./commission/commission.module";

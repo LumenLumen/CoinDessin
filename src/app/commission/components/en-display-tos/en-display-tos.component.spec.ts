@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ContactComponent } from './contact.component';
+import { EnDisplayTosComponent } from './en-display-tos.component';
 
-describe('ContactComponent', () => {
-  let component: ContactComponent;
-  let fixture: ComponentFixture<ContactComponent>;
+describe('EnDisplayTosComponent', () => {
+  let component: EnDisplayTosComponent;
+  let fixture: ComponentFixture<EnDisplayTosComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ContactComponent]
+      imports: [EnDisplayTosComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(ContactComponent);
+    fixture = TestBed.createComponent(EnDisplayTosComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

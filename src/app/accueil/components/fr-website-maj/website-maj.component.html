@@ -1,0 +1,13 @@
+<h1>_______ <br><br>Nouveautés</h1>
+
+<table>
+    <tr *ngFor="let m of Majs">
+        <td>
+            <img [src]="m.image">
+        </td>
+        <td>
+            <h2>{{m.date}} - {{m.titre}} </h2>
+            <p>{{m.description}}</p>
+        </td>
+    </tr>
+</table>

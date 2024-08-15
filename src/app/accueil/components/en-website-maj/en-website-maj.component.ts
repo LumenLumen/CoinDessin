@@ -11,7 +11,7 @@ export class EnWebsiteMAJComponent {
 
   ngOnInit(){
     this.Majs = [
-      {id: 1, date: "01/05/2024", titre: "I didn't forget you, dear English-speaker", image: "/assets/MAJ3.png", description: "I'm slowly translating this website. If you see any language mistakes, please let me know ! That would help a lot ! Happy May the 1st !"},
+      {id: 1, date: "01/05/2024", titre: "I didn't forget you, dear English-speaker", image: "assets/MAJ3.png", description: "I'm slowly translating this website. If you see any language mistakes, please let me know ! That would help a lot ! Happy May the 1st !"},
     ]
   }
 }

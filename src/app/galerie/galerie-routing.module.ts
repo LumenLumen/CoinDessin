@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ArtListComponent } from './components/art-list/art-list.component';
+import { ArtlistComponent } from './components/artlist/artlist.component';
+import { FullImageComponent } from './components/full-image/full-image.component';
 
 const routes: Routes = [
-  {path: '', component:ArtListComponent}
+  {path: ':id', component: FullImageComponent},
+  {path: '', component:ArtlistComponent}
 ];
 
 @NgModule({

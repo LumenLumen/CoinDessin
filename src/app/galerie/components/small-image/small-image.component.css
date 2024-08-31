@@ -1,0 +1,23 @@
+ /* Container holding the image and the text */
+.container {
+    position: relative;
+}
+  
+  /* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 4px;
+    right:0px;
+    background-color: rgba(25, 25, 25, 0.8);
+    padding: 10px;
+}
+
+p {
+    color: var(--blanc);
+    font-size: 12px;
+}
+
+.small, a {
+    font-size: 6px;
+    color: var(--blanc);
+}

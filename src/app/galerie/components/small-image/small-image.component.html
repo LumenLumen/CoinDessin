@@ -1,0 +1,9 @@
+<div class="container">
+    <img src={{lien}} alt="Artwork by Lumen" style="width:100%;">
+    <div class="text-block">
+        <h3>{{titre}}</h3>
+        <p>{{description}}</p>
+        <p class="small" *ngIf="getLng() == 'fr'">Pour : <a href={{ownerlink}}>{{owner}}</a></p>
+        <p class="small" *ngIf="getLng() == 'en'">For: <a href={{ownerlink}}>{{owner}}</a></p>
+    </div>
+</div> 

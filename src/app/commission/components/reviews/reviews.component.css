@@ -1,0 +1,12 @@
+div.scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scroll-container div {
+    display: inline-block;
+    text-align: center;
+    max-width: 500px;
+    border : 2px dotted hsl(359, 78%, 60%);
+}
+

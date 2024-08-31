@@ -10,6 +10,9 @@ import { DisplayTOSComponent } from './components/fr-display-tos/display-tos.com
 import { HowToCommComponent } from './components/fr-how-to-comm/how-to-comm.component';
 import { MainPageComponent } from './components/main-page/main-page.component';
 import { TierCommViewComponent } from "./components/tier-comm-view/tier-comm-view.component";
+import { ReviewsComponent } from "./components/reviews/reviews.component";
+import { PriceformComponent } from "./components/priceform/priceform.component";
+import { ReviewsingleComponent } from "./components/reviewsingle/reviewsingle.component";
 
 
 @NgModule({
@@ -21,11 +24,14 @@ import { TierCommViewComponent } from "./components/tier-comm-view/tier-comm-vie
     DisplayTOSComponent,
     HowToCommComponent,
     MainPageComponent,
-    TierCommViewComponent
+    TierCommViewComponent,
+    ReviewsComponent,
+    PriceformComponent,
+    ReviewsingleComponent
   ],
   imports: [
     CommonModule,
-    CommissionRoutingModule
+    CommissionRoutingModule,
 ]
 })
 export class CommissionModule { }

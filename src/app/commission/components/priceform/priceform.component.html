@@ -1,0 +1,70 @@
+<h2 *ngIf="getLng() == 'fr'"><br>Estimer le prix de votre commande</h2>
+<h2 *ngIf="getLng() == 'en'"><br>Estimate the price of your commission</h2>
+
+<div class="flexbox">
+    <form class="box" *ngIf="getLng() == 'fr'">
+        <p class="titre">Type de commande</p>
+        <input name="type" type="radio" (click)="updateTier('por')" formControl="tier" value="por" id="portrait" ><label for="portrait">Portrait</label><br>
+        <input name="type" type="radio" (click)="updateTier('hal')" formControl="tier" value="hal" id="half" ><label for="half">Half</label><br>
+        <input name="type" type="radio" (click)="updateTier('ful')" formControl="tier" value="ful" id="full"><label for="full">Full</label><br>
+        <input name="type" type="radio" (click)="updateTier('exp')" formControl="tier" value="exp" id="expr"><label for="expr">Page d'expression</label><br>
+        <input name="type" type="radio" (click)="updateTier('sce')" formControl="tier" value="sce" id="scene"><label for="scene">Scène</label><br>
+        <input name="type" type="radio" (click)="updateTier('bdp')" formControl="tier" value="bdp" id="bdp"><label for="bdp">Boule de poil</label><br>
+        <input name="type" type="radio" (click)="updateTier('ani')" formControl="tier" value="ani" id="animportrait"><label for="animportrait">Portrait animé</label><br>
+        <input name="type" type="radio" (click)="updateTier('skp')" formControl="tier" value="skp" id="skpage"><label for="skpage">Page de sketch</label><br>
+    </form>
+
+    <form class="box" *ngIf="getLng() == 'fr'">
+        <p class="titre">Nombre de personnage</p>
+        <input name="nbperso" type="radio" (click)="updateNbPerso('1')" formControl="nbperso" value="1" id="un" ><label for="un">1</label><br>
+        <input name="nbperso" type="radio" (click)="updateNbPerso('2')" formControl="nbperso" value="2" id="deux" ><label for="deux">2</label><br>
+        <input name="nbperso" type="radio" (click)="updateNbPerso('3')" formControl="nbperso" value="3" id="trois"><label for="trois">3</label><br>
+        <input name="nbperso" type="radio" (click)="updateNbPerso('4')" formControl="nbperso" value="4" id="quatre"><label for="quatre">4</label><br>
+    </form>
+
+    <form class="box" *ngIf="getLng() == 'fr'">
+        <p class="titre" *ngIf="nbperso.value === '1'">Complexité du personnage</p>
+        <p class="titre"*ngIf="!(nbperso.value === '1')">Complexité moyenne des personnages</p>
+        <input name="perso" type="radio" (click)="updatePerso('sha')" formControl="perso" value="sha" id="simpleshape" ><label for="simpleshape">Très simple (ex : Kirbi, Rondoudou)</label><br>
+        <input name="perso" type="radio" (click)="updatePerso('sim')" formControl="perso" value="sim" id="simple" ><label for="simple">Simple (ex : Patrick l'étoile de mer, Simba)</label><br>
+        <input name="perso" type="radio" (click)="updatePerso('nor')" formControl="perso" value="nor" id="normal"><label for="normal">Normale (ex : Mario, Luffy)</label><br>
+        <input name="perso" type="radio" (click)="updatePerso('dif')" formControl="perso" value="dif" id="difficile"><label for="difficile">Difficile (ex : Shiryu du dragon, Ethernatos)</label><br>
+    </form>
+
+
+    <form class="box" *ngIf="getLng() == 'en'">
+        <p class="titre">Type of commission</p>
+        <input name="type" type="radio" (click)="updateTier('por')" formControl="tier" value="por" id="portrait" ><label for="portrait">Portrait</label><br>
+        <input name="type" type="radio" (click)="updateTier('hal')" formControl="tier" value="hal" id="half" ><label for="half">Half body</label><br>
+        <input name="type" type="radio" (click)="updateTier('ful')" formControl="tier" value="ful" id="full"><label for="full">Full body</label><br>
+        <input name="type" type="radio" (click)="updateTier('exp')" formControl="tier" value="exp" id="expr"><label for="expr">Expression sheet</label><br>
+        <input name="type" type="radio" (click)="updateTier('sce')" formControl="tier" value="sce" id="scene"><label for="scene">Scene</label><br>
+        <input name="type" type="radio" (click)="updateTier('bdp')" formControl="tier" value="bdp" id="bdp"><label for="bdp">Fluffy ball</label><br>
+        <input name="type" type="radio" (click)="updateTier('ani')" formControl="tier" value="ani" id="animportrait"><label for="animportrait">5 frames bust</label><br>
+        <input name="type" type="radio" (click)="updateTier('skp')" formControl="tier" value="skp" id="skpage"><label for="skpage">Sketch page</label><br>
+    </form>
+
+    <form class="box" *ngIf="getLng() == 'en'">
+        <p class="titre">Number of characters</p>
+        <input name="nbperso" type="radio" (click)="updateNbPerso('1')" formControl="nbperso" value="1" id="un" ><label for="un">1</label><br>
+        <input name="nbperso" type="radio" (click)="updateNbPerso('2')" formControl="nbperso" value="2" id="deux" ><label for="deux">2</label><br>
+        <input name="nbperso" type="radio" (click)="updateNbPerso('3')" formControl="nbperso" value="3" id="trois"><label for="trois">3</label><br>
+        <input name="nbperso" type="radio" (click)="updateNbPerso('4')" formControl="nbperso" value="4" id="quatre"><label for="quatre">4</label><br>
+    </form>
+
+    <form class="box" *ngIf="getLng() == 'en'">
+        <p class="titre" *ngIf="nbperso.value === '1'">Character design complexity</p>
+        <p class="titre"*ngIf="!(nbperso.value === '1')">Average characters designs complexity</p>
+        <input name="perso" type="radio" (click)="updatePerso('sha')" formControl="perso" value="sha" id="simpleshape" ><label for="simpleshape">Simple shaped (ex : Kirbi, Jigglypuff)</label><br>
+        <input name="perso" type="radio" (click)="updatePerso('sim')" formControl="perso" value="sim" id="simple" ><label for="simple">Simple (ex : Patrick the star, Simba)</label><br>
+        <input name="perso" type="radio" (click)="updatePerso('nor')" formControl="perso" value="nor" id="normal"><label for="normal">Average (ex : Mario, Luffy)</label><br>
+        <input name="perso" type="radio" (click)="updatePerso('dif')" formControl="perso" value="dif" id="difficile"><label for="difficile">Complex (ex : Shiryu du dragon, Eternatus)</label><br>
+    </form>
+</div>
+
+<br>
+<p *ngIf="getLng() == 'fr'" class="titre">Prix estimé : {{minprice}} - {{maxprice}} €</p>
+<p *ngIf="!(tier.value === 'bdp') and getLng() == 'fr'">Ce prix est calculé pour un travail coloré et ombré. Contactez Lumen pour plus d'informations.</p>
+
+<p *ngIf="getLng() == 'en'" class="titre">Estimate price : {{minprice}} - {{maxprice}} €</p>
+<p *ngIf="!(tier.value === 'bdp') and getLng() == 'en'">This price is calculated for a coloured and shaded piece. Please contact Lumen for more informations.</p>

@@ -4,7 +4,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { LanguagebuttonComponent } from './components/languagebutton/languagebutton.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { RouterLink, RouterLinkActive } from '@angular/router';
-import { SettingService } from './components/languagebutton/languagesettings.service';
 
 
 @NgModule({
@@ -19,7 +18,7 @@ import { SettingService } from './components/languagebutton/languagesettings.ser
     RouterLinkActive
   ],
   exports: [
-    HeaderComponent
+    HeaderComponent,
   ]
 })
 export class CoreModule { }

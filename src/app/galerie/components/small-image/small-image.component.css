@@ -7,9 +7,14 @@
 .text-block {
     position: absolute;
     bottom: 4px;
-    right:0px;
+    right: 0px;
+    width: 100%;
     background-color: rgba(25, 25, 25, 0.8);
-    padding: 10px;
+    opacity: 0;
+}
+
+.text-block:hover{
+    opacity: 100;
 }
 
 p {

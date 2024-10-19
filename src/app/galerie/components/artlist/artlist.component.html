@@ -1,15 +1,20 @@
 <div class="row">
     <div class="column">
-        <div class="img"><app-small-image lien="assets/Galerie/001.png" titre="Titre" description="description" owner="Lumen" ownerlink="https://toyhou.se"></app-small-image></div>
-        <div class="img"><app-small-image lien="assets/Galerie/008.png" titre="Titre" description="description" owner="Lumen" ownerlink="https://toyhou.se"></app-small-image></div>
-        <div class="img"><app-small-image lien="assets/Galerie/023.png" titre="Titre" description="description" owner="Lumen" ownerlink="https://toyhou.se"></app-small-image></div>
+        <div *ngFor="let file of listeFiles; let i = index">
+            <div *ngIf="i % 3 == 0" class="img"><app-small-image lien={{file}} titre={{art_desc[i].titre}} description={{art_desc[i].description}} owner={{art_desc[i].owner}} ownerlink={{art_desc[i].ownerlink}}></app-small-image></div>
+        </div>
     </div>
+
     <div class="column">
-        <div class="img"><app-small-image lien="assets/Galerie/007.png" titre="Titre" description="description" owner="Lumen" ownerlink="https://toyhou.se"></app-small-image></div>
-        <div class="img"><app-small-image lien="assets/Galerie/003.png" titre="Titre" description="description" owner="Lumen" ownerlink="https://toyhou.se"></app-small-image></div>
-        <div class="img"><app-small-image lien="assets/Galerie/018.png" titre="" description="" owner="Lumen" ownerlink="https://toyhou.se"></app-small-image></div>
+        <div *ngFor="let file of listeFiles; let i = index">
+            <div *ngIf="i % 3 == 1" class="img"><app-small-image lien={{file}} titre={{art_desc[i].titre}} description={{art_desc[i].description}} owner={{art_desc[i].owner}} ownerlink={{art_desc[i].ownerlink}}></app-small-image></div>
+        </div>
     </div>
+
     <div class="column">
-        <div class="img"><app-small-image lien="assets/Galerie/008.png" titre="Titre" description="description" owner="Lumen" ownerlink="https://toyhou.se"></app-small-image></div>
-        <div class="img"><app-small-image lien="assets/Galerie/014.png" titre="Titre" description="descriptio qsdchosdc hscoihqocihqoi cqqc cjoqshcoq qcoc ufgziegfi aizhdoahzdoiaz daohoiazhdoihazod dazoahzdiz d da d" owner="Lumen" ownerlink="https://toyhou.se"></app-small-image></div>
+        <div *ngFor="let file of listeFiles; let i = index">
+            <div *ngIf="i % 3 == 2" class="img"><app-small-image lien={{file}} titre={{art_desc[i].titre}} description={{art_desc[i].description}} owner={{art_desc[i].owner}} ownerlink={{art_desc[i].ownerlink}}></app-small-image></div>
+        </div>
+    </div>
+
 </div>

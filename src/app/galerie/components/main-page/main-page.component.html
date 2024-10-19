@@ -1,4 +1,28 @@
-<h2>Cette page est en construction...</h2>
-<h2>Lumen is building this page...</h2>
+<h1>Galerie</h1>
 
-<app-artlist></app-artlist>
+<p *ngIf="getLng() === 'fr'">
+    Toutes les illustrations ci-dessous sont réalisées par mes soins. Elles sont triées par années. Je vous demanderais de ne pas reposter mes dessins sans mon accord écrit.
+    <br>    
+    Certains liens peuvent être manquants pour les plus vielles illustrations. Par ailleurs, les pseudos pouvant changer au fil du temps, n'hésitez pas à me contacter si vous voyez une mise à jour à effectué de ce côté.
+    <br>
+</p>
+<p *ngIf="getLng() === 'en'">
+    All artworks below are made by me. They are sorted by year. Please, do not repost my art without my written consent.
+    <br>    
+    Some links may be missing for the older artworks. People's username can change, don't hesitate to contact me if an update is needed.
+    <br><br>
+    I don't plan to translate my comment on each piece in English so far (maybe one day), sorry dear English-speakers. Please enjoy some french language :)
+    <br>
+</p>
+
+<h2>2023 & 2024</h2>
+<p>Coming soon...<br></p>
+
+<h2>2022</h2>
+<app-artlist annee="2022"></app-artlist>
+<br>
+<h2>2021</h2>
+<app-artlist annee="2021"></app-artlist>
+<br>
+<h2>2020</h2>
+<app-artlist annee="2020"></app-artlist>

@@ -18,7 +18,7 @@
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     .column {
       flex: 45%;
       max-width: 50%;

@@ -26,7 +26,6 @@
         <p class="titre" *ngIf="nbperso.value === '1'">Complexité du personnage</p>
         <p class="titre"*ngIf="!(nbperso.value === '1')">Complexité moyenne des personnages</p>
         <input name="perso" type="radio" (click)="updatePerso('sha')" formControl="perso" value="sha" id="simpleshape" ><label for="simpleshape">Très simple (ex : Kirbi, Rondoudou)</label><br>
-        <input name="perso" type="radio" (click)="updatePerso('sim')" formControl="perso" value="sim" id="simple" ><label for="simple">Simple (ex : Patrick l'étoile de mer, Simba)</label><br>
         <input name="perso" type="radio" (click)="updatePerso('nor')" formControl="perso" value="nor" id="normal"><label for="normal">Normale (ex : Mario, Luffy)</label><br>
         <input name="perso" type="radio" (click)="updatePerso('dif')" formControl="perso" value="dif" id="difficile"><label for="difficile">Difficile (ex : Shiryu du dragon, Ethernatos)</label><br>
     </form>
@@ -56,9 +55,8 @@
         <p class="titre" *ngIf="nbperso.value === '1'">Character design complexity</p>
         <p class="titre"*ngIf="!(nbperso.value === '1')">Average characters designs complexity</p>
         <input name="perso" type="radio" (click)="updatePerso('sha')" formControl="perso" value="sha" id="simpleshape" ><label for="simpleshape">Simple shaped (ex : Kirbi, Jigglypuff)</label><br>
-        <input name="perso" type="radio" (click)="updatePerso('sim')" formControl="perso" value="sim" id="simple" ><label for="simple">Simple (ex : Patrick the star, Simba)</label><br>
         <input name="perso" type="radio" (click)="updatePerso('nor')" formControl="perso" value="nor" id="normal"><label for="normal">Average (ex : Mario, Luffy)</label><br>
-        <input name="perso" type="radio" (click)="updatePerso('dif')" formControl="perso" value="dif" id="difficile"><label for="difficile">Complex (ex : Shiryu du dragon, Eternatus)</label><br>
+        <input name="perso" type="radio" (click)="updatePerso('dif')" formControl="perso" value="dif" id="difficile"><label for="difficile">Complex (ex : Dragon Shiryu, Eternatus)</label><br>
     </form>
 </div>
 

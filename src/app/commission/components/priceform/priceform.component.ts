@@ -69,9 +69,6 @@ export class PriceformComponent {
       case 'sha':
         this.minprice = this.minprice * 0.5 ; this.maxprice = this.maxprice * 0.5 ;
         break;
-      case 'sim' :
-        this.minprice = this.minprice * 0.8 ; this.maxprice = this.maxprice * 0.8 ;
-        break ;
       case 'dif' :
         this.minprice = this.minprice * 1.3 ; this.maxprice = this.maxprice * 1.3 ;
         break;

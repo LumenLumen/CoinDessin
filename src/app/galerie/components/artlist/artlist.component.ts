@@ -2,6 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { ART2020 } from '../../models/2020-mock';
 import { ART2021 } from '../../models/2021-mock';
 import { ART2022 } from '../../models/2022-mock';
+import { ART2023 } from '../../models/2023-mock';
 import { SmallImg } from '../../models/small-img.model';
 
 @Component({
@@ -30,6 +31,10 @@ export class ArtlistComponent implements OnInit{
     else if (this.annee == "2022"){
       this.nb_art = 29 ;
       this.art_desc = ART2022 ;
+    }
+    else if (this.annee == "2023"){
+      this.nb_art = 32 ;
+      this.art_desc = ART2023 ;
     }
     this.listeFichier();
   }

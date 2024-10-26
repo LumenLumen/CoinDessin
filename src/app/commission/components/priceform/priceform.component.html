@@ -61,8 +61,8 @@
 </div>
 
 <br>
-<p *ngIf="getLng() == 'fr'" class="titre">Prix estimé : {{minprice}} - {{maxprice}} €</p>
-<p *ngIf="!(tier.value === 'bdp') and getLng() == 'fr'">Ce prix est calculé pour un travail coloré et ombré. Contactez Lumen pour plus d'informations.</p>
+<div *ngIf="getLng() == 'fr'"><p class="titre">Prix estimé : {{minprice}} - {{maxprice}} €</p>
+<p *ngIf="!(tier.value === 'bdp')">Ce prix est calculé pour un travail coloré et ombré. Contactez Lumen pour plus d'informations.</p></div>
 
-<p *ngIf="getLng() == 'en'" class="titre">Estimate price : {{minprice}} - {{maxprice}} €</p>
-<p *ngIf="!(tier.value === 'bdp') and getLng() == 'en'">This price is calculated for a coloured and shaded piece. Please contact Lumen for more informations.</p>
+<div *ngIf="getLng() == 'en'"><p class="titre">Estimate price : {{minprice}} - {{maxprice}} €</p>
+<p *ngIf="!(tier.value === 'bdp')">This price is calculated for a coloured and shaded piece. Please contact Lumen for more informations.</p></div>

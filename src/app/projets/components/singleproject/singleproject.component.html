@@ -1,0 +1,49 @@
+<div *ngIf="color === 'vert'" class="card-vert">
+    <table>
+        <tr>
+            <td>
+                <img src={{image}}>
+            </td>
+            <td>
+                <div style="display: inline;">
+                    <p *ngIf="getLng() === 'fr'" class="vert">En cours</p>
+                    <p *ngIf="getLng() === 'en'" class="vert">Active</p>
+                    <h2 class="titre-vert">{{title}}</h2>
+                </div>
+                <p>{{desc}}</p>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div *ngIf="color === 'rouge'" class="card-rouge">
+    <table>
+        <tr>
+            <td>
+                <img src={{image}}>
+            </td>
+            <td>
+                <p *ngIf="getLng() === 'fr'" class="rouge">Non abouti</p>
+                <p *ngIf="getLng() === 'en'" class="rouge">Uncompleted</p>
+                <h2 class="titre-rouge">{{title}}</h2>
+                <p>{{desc}}</p>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div *ngIf="color === 'bleu'" class="card-bleu">
+    <table>
+        <tr>
+            <td>
+                <img src={{image}}>
+            </td>
+            <td>
+                <p *ngIf="getLng() === 'fr'" class="bleu">Fini</p>
+                <p *ngIf="getLng() === 'en'" class="bleu">Completed</p>
+                <h2 class="titre-bleu">{{title}}</h2>
+                <p>{{desc}}</p>
+            </td>
+        </tr>
+    </table>
+</div>

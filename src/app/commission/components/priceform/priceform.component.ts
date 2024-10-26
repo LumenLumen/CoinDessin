@@ -15,7 +15,7 @@ export class PriceformComponent {
     return this.settingService.getLng();
   }
 
-  tier = new FormControl('por');
+  tier = new FormControl('bdp');
   perso = new FormControl('nor');
   nbperso = new FormControl('1');
   minprice = 15.0 ;

@@ -1,0 +1,57 @@
+img {
+    max-width: 200px;
+}
+
+.titre-vert{
+    color: darkolivegreen;
+    max-width: 400px;
+}
+
+.titre-rouge{
+    color:rgb(179, 23, 23);
+    max-width: 400px;
+}
+
+.titre-bleu{
+    color: rgb(15, 109, 203);
+    max-width: 400px;
+}
+
+.card-vert {
+    background-color: var(--vert);
+}
+
+.card-bleu {
+    background-color:rgb(165, 197, 230);
+}
+
+.card-rouge {
+    background-color: rgb(246, 202, 202);
+}
+
+.bleu {
+    background-color: rgb(15, 109, 203);
+    color: var(--blanc);
+    text-align: center;
+    font-size: 16px;
+    border-radius: 25px;
+    max-width: 130px;
+}
+
+.vert {
+    background-color: darkolivegreen;
+    color: var(--blanc);
+    text-align: center;
+    font-size: 16px;
+    border-radius: 25px;
+    max-width: 130px;
+}
+
+.rouge {
+    background-color:rgb(179, 23, 23);
+    color: var(--blanc);
+    text-align: center;
+    font-size: 16px;
+    border-radius: 25px;
+    max-width: 130px;
+}

@@ -1,0 +1,20 @@
+<br>
+<h1 *ngIf="getLng() === 'fr'">Projets</h1>
+<h1 *ngIf="getLng() === 'en'">Projects</h1>
+
+<p *ngIf="getLng() === 'fr'">
+    J'ai eu de nombreux projets dans ma vie d'artiste. Certains sont en cours, d'autres achevés ou non aboutis. Ils seront identifiés par un petit bagde. J'espère que cela vous plaira ! Si vous souhaitez me soutenir, n'hésitez pas à me contacter avec un petit mot de soutien (je n'ai pas de projet qui nécessite un financement, le soutien moral est plus important pour moi).
+</p>
+
+<p *ngIf="getLng() === 'en'">
+    I developed a lot of projects as an artist. Some are still active, while others are done ou uncompleted. They will be identified by a tag. I hope you will enjoy it ! If you want to support me, please contact me with some nice words (none of my projects requires founding, so moral support are more important to me).
+</p>
+
+<br><br>
+<div *ngIf="getLng() === 'fr'">
+    <a routerLink="./inktober2024"><app-singleproject title="Inktober 2024" image="assets/Projets/Inktober2024/inktober-list-fr.jpg" color="vert" desc="Inktober est un challenge qui consiste à dessiner chaque jour durant le mois d'octobre en suivant une liste de prompt."></app-singleproject></a>
+</div>
+
+<div *ngIf="getLng() === 'en'">
+    <a routerLink="./inktober2024"><app-singleproject title="Inktober 2024" image="assets/Projets/Inktober2024/inktober-list-en.jpg" color="vert" desc="Inktober is a famous daily prompt art challenge taking place in October."></app-singleproject></a>
+</div>

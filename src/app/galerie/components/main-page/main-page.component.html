@@ -1,4 +1,6 @@
-<h1>Galerie</h1>
+<br>
+<h1 *ngIf="getLng() === 'fr'">Galerie</h1>
+<h1 *ngIf="getLng() === 'en'">Gallery</h1>
 
 <p *ngIf="getLng() === 'fr'">
     Toutes les illustrations ci-dessous sont réalisées par mes soins. Elles sont triées par années. Je vous demanderais de ne pas reposter mes dessins sans mon accord écrit.

@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+    color: var(--noir);
+}
+
+a:visited {
+    color: var(--noir);
+}
+
+a:hover {
+    color: var(--noir);
+}

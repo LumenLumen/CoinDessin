@@ -1,3 +1,7 @@
+<br>
+<h1 *ngIf="getLng() === 'fr'">Commandes</h1>
+<h1 *ngIf="getLng() === 'en'">Commissions</h1>
+
 <app-display-comm *ngIf="getLng() == 'fr'"></app-display-comm>
 <app-en-display-comm *ngIf="getLng() == 'en'"></app-en-display-comm>
 

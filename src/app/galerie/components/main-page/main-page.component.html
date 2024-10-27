@@ -18,7 +18,13 @@
 </p>
 
 <h2>2024</h2>
-<p>Coming soon...<br></p>
+<p *ngIf="getLng() === 'fr'">
+    Vous verrez que j'ai beaucoup dessiné cette année ! J'ai participé à pas d'évenement, fait évolué par mal de mes personnages (même si vous ne verrez pas tout), réalisé des commandes et effectué pas mal d'échanges avec des artistes formidables !
+    <br><br>
+    Vous pouvez également trouver mon Inktober 2024 dans les projets !!
+</p>
+<app-artlist annee="2024"></app-artlist>
+<br>
 <h2>2023</h2>
 <app-artlist annee="2023"></app-artlist>
 <br>

@@ -3,6 +3,7 @@ import { ART2020 } from '../../models/2020-mock';
 import { ART2021 } from '../../models/2021-mock';
 import { ART2022 } from '../../models/2022-mock';
 import { ART2023 } from '../../models/2023-mock';
+import { ART2024 } from '../../models/2024-mock';
 import { SmallImg } from '../../models/small-img.model';
 
 @Component({
@@ -35,6 +36,10 @@ export class ArtlistComponent implements OnInit{
     else if (this.annee == "2023"){
       this.nb_art = 32 ;
       this.art_desc = ART2023 ;
+    }
+    else if (this.annee == "2024"){
+      this.nb_art = 55 ;
+      this.art_desc = ART2024 ;
     }
     this.listeFichier();
   }

@@ -206,4 +206,55 @@
 </p>
 <img src="assets/Projets/Inktober2024/26.png">
 
+<h2 *ngIf="getLng() === 'fr'">Jour 27 : Route</h2>
+<h2 *ngIf="getLng() === 'en'">Day 27 : Road</h2>
+<p *ngIf="getLng() === 'fr'">
+    Vous vous demandez ce qu'il prépare ? C'est le cours annuel de destruction de voiture !
+</p>
+<img src="assets/Projets/Inktober2024/27.png">
+
+<h2 *ngIf="getLng() === 'fr'">Jour 28 : Géant</h2>
+<h2 *ngIf="getLng() === 'en'">Day 28 : Jumbo</h2>
+<p *ngIf="getLng() === 'fr'">
+    Vous n'avez vu d'énormes limaces ?
+</p>
+<img src="assets/Projets/Inktober2024/28.png">
+
+<h2 *ngIf="getLng() === 'fr'">Jour 29 : Navigateur</h2>
+<h2 *ngIf="getLng() === 'en'">Day 29 : Navigator</h2>
+<p *ngIf="getLng() === 'fr'">
+    On se demande bien où elles vont atterir...
+</p>
+<img src="assets/Projets/Inktober2024/29.png">
+
+<h2 *ngIf="getLng() === 'fr'">Jour 30 : Violon</h2>
+<h2 *ngIf="getLng() === 'en'">Day 30 : Violin</h2>
+<p *ngIf="getLng() === 'fr'">
+    J'aime beaucoup les couleurs de celui-ci. C'est un grand violon.
+</p>
+<img src="assets/Projets/Inktober2024/30.png">
+
+<h2 *ngIf="getLng() === 'fr'">Jour 31 : Repère</h2>
+<h2 *ngIf="getLng() === 'en'">Day 31 : Landmark</h2>
+<p *ngIf="getLng() === 'fr'">
+    Espérons qu'on vienne la chercher avant le prochain Inktober...
+</p>
+<img src="assets/Projets/Inktober2024/31.png">
+
+<h2 *ngIf="getLng() === 'fr'">Résumé</h2>
+<h2 *ngIf="getLng() === 'en'">In a nutshell</h2>
+
+<p *ngIf="getLng() === 'fr'">
+    J'espère que cela vous a plu ! Voici un petit résumé des œuvres. N'hésitez pas à me dire laquelle vous préférez ! :D
+</p>
+<p *ngIf="getLng() === 'en'">
+    I hope you enjoyed ! Here are all the pieces. Feel free to tell me which one you prefer ! :D
+</p>
+
+<div class="responsive" *ngFor="let item of [].constructor(31); let i = index">
+    <div class="gallery">
+        <img src="assets/Projets/Inktober2024/{{i+1}}.png" width="200" height="200">
+    </div>
+</div>
+
 <br><br><br><br>

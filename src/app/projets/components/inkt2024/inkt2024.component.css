@@ -3,6 +3,36 @@ img {
     margin : auto ;
     width: 60%;
 }
+
 p {
     text-align: center;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+
+.responsive {
+    float: left;
+    width: 19.99999%;
+}
+  
+@media only screen and (max-width: 900px) {
+    .responsive {
+      width: 24.99999%;
+    }
+}
+  
+@media only screen and (max-width: 601px) {
+    .responsive {
+      width: 49.99999%;
+    }
+}
+  
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }

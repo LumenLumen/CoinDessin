@@ -1,0 +1,7 @@
+.charity{
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    font-size: 22px;
+    background-color: var(--vert);
+}

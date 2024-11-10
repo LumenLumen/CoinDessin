@@ -1,0 +1,65 @@
+<br>
+<h1 *ngIf="getLng() === 'fr'">Dessins caritatifs</h1>
+<h1 *ngIf="getLng() === 'en'">Charity commissions</h1>
+
+<p *ngIf="getLng() === 'fr'" class="center">
+    Ouvert du 25 novembre au 20 décembre 2024
+</p>
+<p *ngIf="getLng() === 'en'" class="center">
+    Open from 25th November to 20th December 2024
+</p>
+<br>
+
+<h2 *ngIf="getLng() === 'fr'">Fonctionnement</h2>
+<h2 *ngIf="getLng() === 'en'">How does it work ?</h2>
+
+<p *ngIf="getLng() === 'fr'">
+    J'ai décidé d'ouvrir des commandes caritatives pour soutenir des causes ou des artistes qui me tiennent à cœur. Comment ça marche ?
+    <br>
+    - Les prix des commandes ne changent pas. Vous pouvez les trouver dans l'onglet "Commandes".
+    <br>
+    - Vous pouvez payer entièrement ou partiellement en faisait des dons aux personnes ou organismes indiqués plus bas. Si vous commandez pour 40 euros, vous pouvez payer 20 euros en don et 20 euros à moi par exemple.
+    <br>
+    - Mes termes de contrat restent valables.
+
+    <br><br>
+    Ces commandes seront ouvertes périodiquement. Si le projet est noté "En cours", c'est que vous pouvez commander en donnant. S'il est indiqué "Fini", alors vous devrez attendre la prochaine fois pour payer avec des dons (vous pouvez toujours commandez en me payant entièrement).
+</p>
+<p *ngIf="getLng() === 'en'">
+    Translation in coming...
+</p>
+
+<h2 *ngIf="getLng() === 'fr'">Comment payer ?</h2>
+<h2 *ngIf="getLng() === 'en'">How to pay ?</h2>
+
+<p *ngIf="getLng() === 'fr'">
+    Comme dit plus haut, vous pouvez payer une partie de votre commande en don. Je vais vous demander de justifier votre don avec des captures d'écran sur lesquelles figurent :
+    <br>
+    - la date du don : le don doit avoir été fait après que j'ai accepté de prendre votre commande ;
+    <br>
+    - le montant du don ;
+    <br>
+    - le destinataire du don.
+    <br><br>
+    Tout ce que vous ne payez pas en don, je le prendrais à mon compte par PayPal (comme d'habitude). Vous êtes donc libres de choisir ce que vous reversez à l'organisme ou à l'artiste. Vous êtes libres de fragmenter votre paiement en plusieurs dons, mais j'attends autant de justificatifs que de dons.
+</p>
+<p *ngIf="getLng() === 'en'">
+    Translation in coming...
+</p>
+
+<h2 *ngIf="getLng() === 'fr'">A qui donner ?</h2>
+<h2 *ngIf="getLng() === 'en'">Where to gift ?</h2>
+
+<div class="center">
+    <p *ngIf="getLng() === 'fr'">
+        Voici les organismes/personnes auxquels vous pouvez donner pour payer votre commande :
+    </p>
+    <p *ngIf="getLng() === 'en'">
+        Translation in coming...
+    </p>
+
+    <a href="https://dons.restosducoeur.org/particulier/~mon-don?_cv=1"><img src="assets/Projets/Charity/RestoCoeur.png" style="width: 150px;"></a>
+    <a href="https://www.artwhileapart.org/"><img src="assets/Projets/Charity/AWA.jpg" style="width: 150px;"></a>
+    <a href="https://seashepherd.fr/"><img src="assets/Projets/Charity/SeaS.png" style="width: 150px;"></a>
+    <a href="https://purepolitique.fr/"><img src="assets/Projets/Charity/PurePol.jpg" style="width: 150px;"></a>
+</div>

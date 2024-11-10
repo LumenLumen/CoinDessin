@@ -10,11 +10,22 @@
     I developed a lot of projects as an artist. Some are still active, while others are done ou uncompleted. They will be identified by a tag. I hope you will enjoy it ! If you want to support me, please contact me with some nice words (none of my projects requires founding, so moral support are more important to me).
 </p>
 
+<!--PROJETS-->
+
 <br><br>
 <div *ngIf="getLng() === 'fr'">
-    <a routerLink="./inktober2024"><app-singleproject title="Inktober 2024" image="assets/Projets/Inktober2024/inktober-list-fr.jpg" color="vert" desc="Inktober est un challenge qui consiste à dessiner chaque jour durant le mois d'octobre en suivant une liste de prompt."></app-singleproject></a>
+    <a routerLink="./charitycomm"><app-singleproject title="Dessins caritatifs" image="assets/Projets/Charity/Charity.png" color="bleu" desc="Je réalise vos commandes contre des dons pour des associations caritatives."></app-singleproject></a>
+</div>
+<div *ngIf="getLng() === 'en'">
+    <a routerLink="./charitycomm"><app-singleproject title="Charity Art" image="assets/Projets/Charity/Charity.png" color="bleu" desc="I do charity commissions !"></app-singleproject></a>
 </div>
 
-<div *ngIf="getLng() === 'en'">
-    <a routerLink="./inktober2024"><app-singleproject title="Inktober 2024" image="assets/Projets/Inktober2024/inktober-list-en.jpg" color="vert" desc="Inktober is a famous daily prompt art challenge taking place in October."></app-singleproject></a>
+<br>
+
+<div *ngIf="getLng() === 'fr'">
+    <a routerLink="./inktober2024"><app-singleproject title="Inktober 2024" image="assets/Projets/Inktober2024/inktober-list-fr.jpg" color="bleu" desc="Inktober est un challenge qui consiste à dessiner chaque jour durant le mois d'octobre en suivant une liste de prompt."></app-singleproject></a>
 </div>
+<div *ngIf="getLng() === 'en'">
+    <a routerLink="./inktober2024"><app-singleproject title="Inktober 2024" image="assets/Projets/Inktober2024/inktober-list-en.jpg" color="bleu" desc="Inktober is a famous daily prompt art challenge taking place in October."></app-singleproject></a>
+</div>
+

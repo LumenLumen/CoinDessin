@@ -23,6 +23,15 @@
 <br>
 
 <div *ngIf="getLng() === 'fr'">
+    <a routerLink="./freebie"><app-singleproject title="Dessins gratuits" image="assets/Projets/Freebie/Freebie.png" color="vert" desc="Envie d'un petit dessin ? Je remplie vos requêtes !"></app-singleproject></a>
+</div>
+<div *ngIf="getLng() === 'en'">
+    <a routerLink="./freebie"><app-singleproject title="Free Art" image="assets/Projets/Freebie/Freebie.png" color="vert" desc="Want a freebie ? Make a request !"></app-singleproject></a>
+</div>
+
+<br>
+
+<div *ngIf="getLng() === 'fr'">
     <a routerLink="./inktober2024"><app-singleproject title="Inktober 2024" image="assets/Projets/Inktober2024/inktober-list-fr.jpg" color="bleu" desc="Inktober est un challenge qui consiste à dessiner chaque jour durant le mois d'octobre en suivant une liste de prompt."></app-singleproject></a>
 </div>
 <div *ngIf="getLng() === 'en'">

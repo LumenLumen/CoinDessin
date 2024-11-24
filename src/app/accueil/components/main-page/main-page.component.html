@@ -2,14 +2,36 @@
 <h1 *ngIf="getLng() === 'fr'">Accueil</h1>
 <h1 *ngIf="getLng() === 'en'">Homepage</h1>
 
+<p *ngIf="getLng() === 'fr'" style="text-align: center;">
+  Bienvenue sur mon site web, cher voyageur des Internets ! Tu trouveras ici de nombreuses œuvres réalisées par l'incroyable Lumen incluant ses projets, ses commandes et ses travaux personnels. Puisse la magie de l'art guider ton curseur !
+</p>
+<p *ngIf="getLng() === 'en'" style="text-align: center;">
+  Welcome on my website, dear Internet traveller! You will find here many artworks made by the wonderful Lumen including their projects, their commissions and their personal works! May the magic guide your cursor!
+</p>
+
+<h1 *ngIf="getLng() === 'fr'">_______ <br><br>Qui suis-je ?</h1>
+<h1 *ngIf="getLng() === 'en'">_______ <br><br>Who am I?</h1>
+
 <table class="containimg">
     <tr>
       <td>
         <img src="assets/Profile.png" alt="profile picture">
       </td>
       <td>
-        <p *ngIf="getLng() === 'fr'">Je suis Lumen, étudiante en informatique. Je propose des commandes pour financer mes études. J'aime particulièrement dessiner d'étranges créatures venus de monde lointain, mais également des animaux, notamment des chats qui sont mon sujet de prédilection. J'espère que votre voyage à travers ce site sera plaisant ! Puisse la magie de l'art guider votre curseur ! </p>
-        <p *ngIf="getLng() === 'en'">I'm Lumen, a student in computer science. I'm offering commission to pay my studies. I enjoy drawing wonderful critters from far away lands, and animals, especially cats! I hope you will enjoy my colorful universe as much as I love depicting it. I wish you a pleasant travel across this website! May the magic guide your cursor! </p>
+        <p *ngIf="getLng() === 'fr'">
+          Je suis Lumen, étudiant en informatique et artiste à ses heures perdues. Je dessine pour le plaisir, et diversifie doucement mes talents !
+          <br><br>
+          J'aime particulièrement dessiner d'étranges créatures venus de mondes imaginaires ! Grand fan d'univers médiéval-fantasistes, mon cœur balance entre griffons et dragons. Leur donner vie est toujours un immense plaisir pour moi ! Bien sûr, j'aime également illustrer divers animaux tels que les chats et autres félins, les reptiles et divers amphibiens, les oiseaux et les lagomorphes. Je serais ravi de faire un petit quelque chose pour vos animaux de compagnies, si cela vous dit. 
+          <br><br>
+          Je participe régulièrement à des petits événements organisés sur différents serveurs Discord, mais également à Art Fight ! J'adore les animations et les activités de groupe entre artistes, alors je suis toujours ouvert aux propositions. En somme, n'hésitez pas à m'envoyer un petit message !
+        </p>
+        <p *ngIf="getLng() === 'en'">
+          I'm Lumen, a French student in computer science and a hobbyist artist. I enjoy drawing and I tend to diversify my art skills!
+          <br><br>
+          I absolutely love drawing weird creatures from imaginary worlds! I'm a big fan of medieval-fantasy universes, my heart sways between dragons and griffins. Bringing them to life is always a huge pleasure ! Of course, I also like illustrating various animals such as cats and other felines, reptiles and amphibians, birds and lagomorphs. I'd be happy to do a little something for your pets, if you'd like.
+          <br><br>
+          I often join small events on Discord servers, but I also participate in Art Fight! I enjoy activities between artists, so I'm open to any offer! In a nutshell, feel free to message me!
+        </p>
       </td>
     </tr>
 </table>

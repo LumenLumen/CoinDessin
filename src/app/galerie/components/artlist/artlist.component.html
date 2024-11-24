@@ -1,19 +1,19 @@
 <div class="row">
     <div class="column">
         <div *ngFor="let file of listeFiles; let i = index">
-            <div *ngIf="i % 3 == 0" class="img"><app-small-image lien={{file}} titre={{art_desc[i].titre}} description={{art_desc[i].description}} owner={{art_desc[i].owner}} ownerlink={{art_desc[i].ownerlink}}></app-small-image></div>
+            <div *ngIf="i % 3 == 0" class="img"><app-small-image annee={{annee}} lien={{file}} titre={{art_desc[i].titre}} description={{art_desc[i].description}} owner={{art_desc[i].owner}} ownerlink={{art_desc[i].ownerlink}}></app-small-image></div>
         </div>
     </div>
 
     <div class="column">
         <div *ngFor="let file of listeFiles; let i = index">
-            <div *ngIf="i % 3 == 1" class="img"><app-small-image lien={{file}} titre={{art_desc[i].titre}} description={{art_desc[i].description}} owner={{art_desc[i].owner}} ownerlink={{art_desc[i].ownerlink}}></app-small-image></div>
+            <div *ngIf="i % 3 == 1" class="img"><app-small-image annee={{annee}} lien={{file}} titre={{art_desc[i].titre}} description={{art_desc[i].description}} owner={{art_desc[i].owner}} ownerlink={{art_desc[i].ownerlink}}></app-small-image></div>
         </div>
     </div>
 
     <div class="column">
         <div *ngFor="let file of listeFiles; let i = index">
-            <div *ngIf="i % 3 == 2" class="img"><app-small-image lien={{file}} titre={{art_desc[i].titre}} description={{art_desc[i].description}} owner={{art_desc[i].owner}} ownerlink={{art_desc[i].ownerlink}}></app-small-image></div>
+            <div *ngIf="i % 3 == 2" class="img"><app-small-image annee={{annee}} lien={{file}} titre={{art_desc[i].titre}} description={{art_desc[i].description}} owner={{art_desc[i].owner}} ownerlink={{art_desc[i].ownerlink}}></app-small-image></div>
         </div>
     </div>
 

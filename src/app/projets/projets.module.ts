@@ -7,6 +7,8 @@ import { SingleprojectComponent } from './components/singleproject/singleproject
 import { Inkt2024Component } from './components/inkt2024/inkt2024.component';
 import { CharityArtComponent } from './components/charity-art/charity-art.component';
 import { FreeArtComponent } from './components/free-art/free-art.component';
+import { TalecemberComponent } from './components/talecember/talecember.component';
+import { PersonnagesComponent } from './components/personnages/personnages.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { FreeArtComponent } from './components/free-art/free-art.component';
     SingleprojectComponent,
     Inkt2024Component,
     CharityArtComponent,
-    FreeArtComponent
+    FreeArtComponent,
+    TalecemberComponent,
+    PersonnagesComponent
   ],
   imports: [
     CommonModule,

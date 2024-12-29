@@ -1,0 +1,10 @@
+p {
+    text-align: center;
+}
+
+div.scroll-container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 5px;
+    max-height: 210px;
+}

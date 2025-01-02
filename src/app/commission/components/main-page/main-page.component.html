@@ -2,12 +2,13 @@
 <h1 *ngIf="getLng() === 'fr'">Commandes</h1>
 <h1 *ngIf="getLng() === 'en'">Commissions</h1>
 
-
+<!-- CHARITY COMMISSION
 <div class="charity">
     <div *ngIf="getLng() === 'fr'">Payez en faisant des dons à des associations caritatives !</div>
     <div *ngIf="getLng() === 'en'">Consider charity commissions !</div>
     <a routerLink="/projets/charitycomm">Informations -></a>
 </div>
+-->
 
 <app-display-comm *ngIf="getLng() == 'fr'"></app-display-comm>
 <app-en-display-comm *ngIf="getLng() == 'en'"></app-en-display-comm>

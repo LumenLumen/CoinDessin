@@ -331,4 +331,46 @@ export const ART2024 : SmallImg[] = [
         owner : "Lumen",
         ownerlink : ""
     },
+    {
+        titre : "Choyoné",
+        description : "Choyoné est un personnage acquis récemment alors je suis encore en pleine réflexion à son sujet.",
+        owner : "Lumen",
+        ownerlink : ""
+    },
+    {
+        titre : "Pygmy",
+        description : "Pygmy est un florafelis, une open species que j'aime beaucoup ! En même temps, félin + plante, on ne peut pas faire mieux !",
+        owner : "Lumen",
+        ownerlink : ""
+    },
+    {
+        titre : "Buster et Verveine",
+        description : "Et voici notre plus ancien couple ensemble sur un page de sketch que j'aime beaucoup. Ne sont-ils pas adorables tous les deux ?",
+        owner : "Lumen",
+        ownerlink : ""
+    },
+    {
+        titre : "Txiki",
+        description : "Après sa référence, Txiki a le droit à une page de sketch !",
+        owner : "Lumen",
+        ownerlink : ""
+    },
+    {
+        titre : "Thoo",
+        description : "J'ai fait beaucoup de page de sketch récemment est Thoo n'y a pas échappé !",
+        owner : "Lumen",
+        ownerlink : ""
+    },
+    {
+        titre : "Sam",
+        description : "J'adore l'effet de lumière de la lanterne, il fallait que je vous le montre !",
+        owner : "Lumen",
+        ownerlink : ""
+    },
+    {
+        titre : "Azur",
+        description : "Un petit storyboard avec Azur et une nouvelle amie à pois !",
+        owner : "Lumen",
+        ownerlink : ""
+    },
 ]

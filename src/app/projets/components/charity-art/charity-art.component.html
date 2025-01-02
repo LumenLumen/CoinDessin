@@ -2,14 +2,6 @@
 <h1 *ngIf="getLng() === 'fr'">Dessins caritatifs</h1>
 <h1 *ngIf="getLng() === 'en'">Charity commissions</h1>
 
-<p *ngIf="getLng() === 'fr'" class="center">
-    Ouvert du 22 novembre au 20 décembre 2024
-</p>
-<p *ngIf="getLng() === 'en'" class="center">
-    Open from 22nd November to 20th December 2024
-</p>
-<br>
-
 <h2 *ngIf="getLng() === 'fr'">Fonctionnement</h2>
 <h2 *ngIf="getLng() === 'en'">How does it work ?</h2>
 
@@ -26,15 +18,13 @@
     Ces commandes seront ouvertes périodiquement. Si le projet est noté "En cours", c'est que vous pouvez commander en donnant. S'il est indiqué "Fini", alors vous devrez attendre la prochaine fois pour payer avec des dons (vous pouvez toujours commandez en me payant entièrement).
 </p>
 <p *ngIf="getLng() === 'en'">
-    I decided to open charity commissions to support organisms or people I value.
-    <br>
-    - My prices don't change. You find them in the "commissions" window.
-    <br>
-    - You can fully or partially pay by donating to the organisms or people linked below. For example, if you commission for 40 EUR, you can pay 20 EUR by donating and pay 20 EUR to me.
-    <br>
+    I decided to open charity commissions to support organizations or people I value.
+    <br><br>
+    - My prices remain the same. You can find them in the "commissions" section. <br>
+    - You can pay fully or partially by donating to the organizations or people listed below. For example, if you commission a piece for 40 EUR, you can donate 20 EUR and pay the remaining 20 EUR to me. <br>
     - My T.O.S. still apply.
     <br><br>
-    This kind of commission will be open periodically. If the project is written "Active", you can pay by donating. Otherwise, please wait for the next time :)
+    These types of commissions will be open periodically. If the project is marked as "Active," you can pay by donating. Otherwise, please wait for the next round. :)
 </p>
 
 <h2 *ngIf="getLng() === 'fr'">Comment payer ?</h2>
@@ -52,15 +42,13 @@
     Tout ce que vous ne payez pas en don, je le prendrais à mon compte par PayPal (comme d'habitude). Vous êtes donc libres de choisir ce que vous reversez à l'organisme ou à l'artiste. Vous êtes libres de fragmenter votre paiement en plusieurs dons, mais j'attends autant de justificatifs que de dons.
 </p>
 <p *ngIf="getLng() === 'en'">
-    As said previously, you can pay by donating. I ask you some screenshots to prove your donation. They must contain the following informations :
-    <br>
-    - Date of the donation : the donation must be done after I accept your commission ;
-    <br>
-    - How much you donate ;
-    <br>
-    - To who you donate.
+    As mentioned earlier, you can pay by donating. I will ask for some screenshots to prove your donation. These must include the following information:
     <br><br>
-    What isn't paid in donation will be paid by PayPal (as usual). You are free to choose how much you donate to associations and how much you would like to pay me. You can donate to several organisms or people as long as I have proofs you've done it.
+    - The date of the donation: the donation must be made after I accept your commission. <br>
+    - The amount donated. <br>
+    - The recipient of the donation. <br><br>
+
+    Any remaining balance not paid through donation will be paid via PayPal (as usual). You are free to choose how much to donate to the organizations and how much you wish to pay me. You may donate to several organizations or people, as long as you provide proof of your donations.
 </p>
 
 <h2 *ngIf="getLng() === 'fr'">A qui donner ?</h2>
@@ -69,15 +57,38 @@
 <div class="center">
     <p *ngIf="getLng() === 'fr'">
         Voici les organismes/personnes auxquels vous pouvez donner pour payer votre commande :
+        <br>
+        Actuellement personne :)
     </p>
     <p *ngIf="getLng() === 'en'">
         Here are the organisms/people you can donate to pay your commission :
+        <br>
+        No one right now
     </p>
-
-    <a href="https://dons.restosducoeur.org/particulier/~mon-don?_cv=1"><img src="assets/Projets/Charity/RestoCoeur.png" style="width: 150px;"></a>
-    <a href="https://www.artwhileapart.org/"><img src="assets/Projets/Charity/AWA.jpg" style="width: 150px;"></a>
-    <a href="https://seashepherd.fr/"><img src="assets/Projets/Charity/SeaS.png" style="width: 150px;"></a>
-    <a href="https://purepolitique.fr/"><img src="assets/Projets/Charity/PurePol.jpg" style="width: 150px;"></a>
-    <a href="https://don.secourspopulaire.fr/noel/~mon-don?ns_ira_cr_arg=IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyPixxMxX5b%2FqLv16%2BzYToGKnAl4J3aLVa7OZzQHFgLcuT9mpJsiwpveLikRDjnjdtU7JVlJUB%2FYDxpnfyXvLEuWayb%2F5iesm0c8jjetfSuNUca9sqMapGJSOFxoHqH6C2Hh%2BZwVNMUrZD676JiKxQo4MaNAnI7iLAphUZF8L02J8mAH4wqN5yKTiabxOzon%2BddQduv%2FT4d9Og7a%2F971Te0j&gad_source=1&gclid=CjwKCAiA9IC6BhA3EiwAsbltOIv6CTGn65OJlyYUgu20faNdM-KpUfKjUNKjmI3AKN02jvMIV6bvvBoCouEQAvD_BwE&_cv=1"><img src="assets/Projets/Charity/SP.png" style="width: 150px;"></a>
-    <a href="https://fr.tipeee.com/hacking-social"><img src="assets/Projets/Charity/HS.png" style="width: 150px;"></a>
 </div>
+
+<div *ngIf="getLng() === 'fr'">
+    <h2>_______<br><br>Fait précédemment</h2>
+    <h3>Ouvert du 22 novembre au 20 décembre 2024</h3>
+    <p>Personne n'était intéressé, à la prochaine fois !
+
+    <br><br>
+    Bénéficiaires :
+    </p>
+</div>
+
+<div *ngIf="getLng() === 'en'">
+    <h2>_______<br><br>Previously done</h2>
+    <h3>Open from 22nd November to 20th December 2024</h3>
+    <p>No one was interested, see you next time !
+        <br><br>
+        Recipients:
+    </p>
+</div>
+
+<a href="https://dons.restosducoeur.org/particulier/~mon-don?_cv=1"><img src="assets/Projets/Charity/RestoCoeur.png" style="width: 150px;"></a>
+<a href="https://www.artwhileapart.org/"><img src="assets/Projets/Charity/AWA.jpg" style="width: 150px;"></a>
+<a href="https://seashepherd.fr/"><img src="assets/Projets/Charity/SeaS.png" style="width: 150px;"></a>
+<a href="https://purepolitique.fr/"><img src="assets/Projets/Charity/PurePol.jpg" style="width: 150px;"></a>
+<a href="https://don.secourspopulaire.fr/noel/~mon-don?ns_ira_cr_arg=IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyPixxMxX5b%2FqLv16%2BzYToGKnAl4J3aLVa7OZzQHFgLcuT9mpJsiwpveLikRDjnjdtU7JVlJUB%2FYDxpnfyXvLEuWayb%2F5iesm0c8jjetfSuNUca9sqMapGJSOFxoHqH6C2Hh%2BZwVNMUrZD676JiKxQo4MaNAnI7iLAphUZF8L02J8mAH4wqN5yKTiabxOzon%2BddQduv%2FT4d9Og7a%2F971Te0j&gad_source=1&gclid=CjwKCAiA9IC6BhA3EiwAsbltOIv6CTGn65OJlyYUgu20faNdM-KpUfKjUNKjmI3AKN02jvMIV6bvvBoCouEQAvD_BwE&_cv=1"><img src="assets/Projets/Charity/SP.png" style="width: 150px;"></a>
+<a href="https://fr.tipeee.com/hacking-social"><img src="assets/Projets/Charity/HS.png" style="width: 150px;"></a>

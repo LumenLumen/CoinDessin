@@ -38,10 +38,10 @@ export class ArtlistComponent implements OnInit{
       this.art_desc = ART2023 ;
     }
     else if (this.annee == "2024"){
-      this.nb_art = 55 ;
+      this.nb_art = 62 ;
       this.art_desc = ART2024 ;
     }
-    this.listeFichier();
+    this.listeFichier(); 
   }
 
   listeFichier(){

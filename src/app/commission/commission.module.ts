@@ -31,7 +31,7 @@ import { ReviewsingleComponent } from "./components/reviewsingle/reviewsingle.co
   ],
   imports: [
     CommonModule,
-    CommissionRoutingModule,
+    CommissionRoutingModule
 ]
 })
 export class CommissionModule { }

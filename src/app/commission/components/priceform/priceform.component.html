@@ -1,4 +1,4 @@
-<h2 *ngIf="getLng() == 'fr'"><br>Estimer le prix de votre commande</h2>
+<h2 *ngIf="getLng() == 'fr'"><br>Estimer le prix de la commande</h2>
 <h2 *ngIf="getLng() == 'en'"><br>Estimate the price of your commission</h2>
 
 <div class="flexbox">
@@ -62,7 +62,9 @@
 
 <br>
 <div *ngIf="getLng() == 'fr'"><p class="titre">Prix estimé : {{minprice}} - {{maxprice}} €</p>
-<p *ngIf="!(tier.value === 'bdp')">Ce prix est calculé pour un travail coloré et ombré. Contactez Lumen pour plus d'informations.</p></div>
+<p *ngIf="!(tier.value === 'bdp' || tier.value === 'non')">Ce prix est calculé pour un travail coloré et ombré. Contactez Lumen pour plus d'informations.</p>
+<p *ngIf="(tier.value === 'non')">Veuillez remplir le formulaire ci-dessous pour estimer le prix de votre commande.</p></div>
 
 <div *ngIf="getLng() == 'en'"><p class="titre">Estimate price : {{minprice}} - {{maxprice}} €</p>
-<p *ngIf="!(tier.value === 'bdp')">This price is calculated for a coloured and shaded piece. Please contact Lumen for more informations.</p></div>
+<p *ngIf="!(tier.value === 'bdp' || tier.value === 'non')">This price is calculated for a coloured and shaded piece. Please contact Lumen for more informations.</p>
+<p *ngIf="(tier.value === 'non')">Please use the form above to estimate the price of your commission</p></div>

@@ -15,11 +15,11 @@ export class PriceformComponent {
     return this.settingService.getLng();
   }
 
-  tier = new FormControl('bdp');
+  tier = new FormControl('non');
   perso = new FormControl('nor');
   nbperso = new FormControl('1');
-  minprice = 15.0 ;
-  maxprice = 200.0 ;
+  minprice = 0 ;
+  maxprice = 0 ;
 
   updateTier(value : string) {    
     this.tier.setValue(value);
@@ -39,6 +39,9 @@ export class PriceformComponent {
   updatePrice(){
 
     switch (this.tier.value){
+      case 'non':
+        this.minprice = 0 ; this.maxprice = 0 ;
+        break ; 
       case 'por':
         this.minprice = 15 ; this.maxprice = 20 ;
         break;
@@ -90,11 +93,13 @@ export class PriceformComponent {
     this.minprice = Math.ceil(this.minprice);
 
     //Contrôle <15
-    if (this.minprice < 15){
-      this.minprice = 15 ;
-    }
-    if (this.maxprice < 15){
-      this.maxprice = 15 ;
+    if (this.tier.value != 'non'){
+      if (this.minprice < 15){
+        this.minprice = 15 ;
+      }
+      if (this.maxprice < 15){
+        this.maxprice = 15 ;
+      }
     }
   }
     

@@ -63,8 +63,10 @@
 <br>
 <div *ngIf="getLng() == 'fr'"><p class="titre">Prix estimé : {{minprice}} - {{maxprice}} €</p>
 <p *ngIf="!(tier.value === 'bdp' || tier.value === 'non')">Ce prix est calculé pour un travail coloré et ombré. Contactez Lumen pour plus d'informations.</p>
+<p *ngIf="tier.value === 'exp'">Ce prix inclue six portraits différents.</p>
 <p *ngIf="(tier.value === 'non')">Veuillez remplir le formulaire ci-dessous pour estimer le prix de votre commande.</p></div>
 
 <div *ngIf="getLng() == 'en'"><p class="titre">Estimate price : {{minprice}} - {{maxprice}} €</p>
 <p *ngIf="!(tier.value === 'bdp' || tier.value === 'non')">This price is calculated for a coloured and shaded piece. Please contact Lumen for more informations.</p>
+<p *ngIf="tier.value === 'exp'">This price includes six different portraits.</p>
 <p *ngIf="(tier.value === 'non')">Please use the form above to estimate the price of your commission</p></div>

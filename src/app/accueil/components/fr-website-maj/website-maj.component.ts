@@ -19,7 +19,8 @@ export class FRWebsiteMAJComponent implements OnInit {
       {id: 5, date: "20/10/2024", titre: "Retour de la galerie", description: "La galerie fait son retour avec plein de dessins ! Il ne manque que ceux de 2024 que je compte ajouter prochainement. Si vous êtes sur écran tactile, je vous invite à taper gentiment en bas de chaque image de la galerie.", image:"assets/MAJ5.png"},
       {id: 6, date: "26/10/2024", titre: "Ajout des projets", description: "Votre attention s'il vous plait, l'onglet des projets est fonctionnel !! Je le remplirai au fur et à mesure quand finalement, le plus long, ce n'est pas de coder... c'est de produire le contenu.", image:"assets/MAJ6.png"},
       {id: 7, date: "10/11/2024", titre: "Inktober + Charity Comm", description: "Tous les dessins faits pour l'Inktober ont été mis en ligne ! N'hésitez pas à y jeter un coup d'œil ! J'ai également créer le projet pour les commandes caritatives ! Bref, surtout de l'ajout de contenu.", image:"assets/MAJ7.png"},
-      {id: 8, date: "02/01/2025", titre: "Mise à jour galerie + traductions", description: "J'ai ajouté quelques dessins à 2024 puisque c'est enfin la nouvelle année. De plus, quelques traductions anglaises ont été mises à jour ainsi que quelques contenus des projets.", image:"assets/MAJ8.png"}
+      {id: 8, date: "02/01/2025", titre: "Mise à jour galerie + traductions", description: "J'ai ajouté quelques dessins à 2024 puisque c'est enfin la nouvelle année. De plus, quelques traductions anglaises ont été mises à jour ainsi que quelques contenus des projets.", image:"assets/MAJ8.png"},
+      {id: 9, date: "21/04/2025", titre: "Grands changements !", description: "J'arrête les commandes... la page des commandes a donc été supprimée. J'en ai profité pour faire un peu de ménage sur la page des projets.", image:"assets/MAJ1.png"}
     ]
   }
 }

@@ -10,8 +10,16 @@
     I developed a lot of projects as an artist. Some are still active, while others are done ou uncompleted. They will be identified by a tag. I hope you will enjoy it ! If you want to support me, please contact me with some nice words (none of my projects requires founding, so moral support are more important to me).
 </p>
 
-<!--PROJETS-->
+<!--PROJETS--> 
 
+<br>
+
+<div *ngIf="getLng() === 'fr'">
+    <a routerLink="./supportgift"><app-singleproject title="Cadeau de soutien" image="assets/Projets/SupportGift/Pic.png" color="vert" desc="Vous êtes un fervant fan ? J'adorerais dessiner pour vous !"></app-singleproject></a>
+</div>
+<div *ngIf="getLng() === 'en'">
+    <a routerLink="./supportgift"><app-singleproject title="Support gift" image="assets/Projets/SupportGift/Pic.png" color="vert" desc="Are you a big fan? I'd love to offer something for you!"></app-singleproject></a>
+</div>
 <br>
 
 <div *ngIf="getLng() === 'fr'">
@@ -20,17 +28,8 @@
 <div *ngIf="getLng() === 'en'">
     <a routerLink="./characters"><app-singleproject title="Félicie's tales" image="assets/Projets/Characters/Pic.png" color="vert" desc="I slowly create a story about a medieval-fantasy world..."></app-singleproject></a>
 </div>
-
 <br>
 
-<div *ngIf="getLng() === 'fr'">
-    <a routerLink="./freebie"><app-singleproject title="Dessins gratuits" image="assets/Projets/Freebie/Freebie.png" color="vert" desc="Envie d'un petit dessin ? Je remplie vos requêtes !"></app-singleproject></a>
-</div>
-<div *ngIf="getLng() === 'en'">
-    <a routerLink="./freebie"><app-singleproject title="Free Art" image="assets/Projets/Freebie/Freebie.png" color="vert" desc="Want a freebie ? Make a request !"></app-singleproject></a>
-</div>
-
-<br>
 <div *ngIf="getLng() === 'fr'">
     <a routerLink="./charitycomm"><app-singleproject title="Dessins caritatifs" image="assets/Projets/Charity/Charity.png" color="bleu" desc="Je réalise vos commandes contre des dons pour des associations caritatives."></app-singleproject></a>
 </div>

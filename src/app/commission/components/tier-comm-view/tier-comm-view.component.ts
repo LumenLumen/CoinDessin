@@ -10,8 +10,9 @@ import { SettingService } from '../../../core/components/languagebutton/language
 export class TierCommViewComponent {
 
     @Input() name !: String ;
-    @Input() tat !: number 
+    @Input() tat !: number ;
     @Input() info !: string ;
+    @Input() prix !: number ;
 
     constructor(private settingService: SettingService){}
 

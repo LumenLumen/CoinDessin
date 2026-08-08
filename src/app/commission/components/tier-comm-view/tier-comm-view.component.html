@@ -1,4 +1,6 @@
 <h2>{{name}}</h2>
 <p *ngIf="getLng() == 'fr'">Délai de livraison estimé : {{tat}} jours.</p>
-<p *ngIf="getLng() == 'en'">Turnaround time : {{tat}} days.</p>
+<p *ngIf="getLng() == 'en'">Turnaround time: {{tat}} days.</p>
+<p *ngIf="getLng() == 'fr'">Don minimum : {{prix}} EUR</p>
+<p *ngIf="getLng() == 'en'">Mininal donation: {{prix}} EUR</p>
 <p>{{info}}</p>

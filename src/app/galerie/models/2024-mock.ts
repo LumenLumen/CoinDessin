@@ -58,25 +58,25 @@ export const ART2024 : SmallImg[] = [
     {
         titre : "Daisy",
         description : "Voici un redesign d'un personnage que j'avais designé et que je n'aimais pas tant que ça. Maintenant, je le trouve incroyablement badass !" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Emote Silène",
         description : "Silène est dans la place ! Je fais des expérimentations pour faire des émotes et des stickers." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Ezer & Kaosa",
         description : "Vous n'avez jamais eu ce problème sur vos photos de famille ?" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Photo de famille",
         description : "Voici Linja avec ses deux petits-fils, Verveine et Buster ! Ils sont encore jeunes sur ce dessin ah ah !",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -94,7 +94,7 @@ export const ART2024 : SmallImg[] = [
     {
         titre : "Crapaud",
         description : "Un petit redesign d'un personnage. J'aime beaucoup le rendu !" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -154,7 +154,7 @@ export const ART2024 : SmallImg[] = [
     {
         titre : "Pigné",
         description : "Regardez comme il est meugnon ! Cela faisait si longtemps que je ne l'avais pas dessiné !!" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -166,13 +166,13 @@ export const ART2024 : SmallImg[] = [
     {
         titre : "Awoow",
         description : "Vous voulez savoir pourquoi Awoow s'appelle comme ça ? C'est le son que j'imagine pour son cri." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Azur",
         description : "Azur est un personnage que j'aime beaucoup, même si pas encore beaucoup développé. J'essayais d'imaginer à quoi ça pourrait ressembler chez lui." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -184,7 +184,7 @@ export const ART2024 : SmallImg[] = [
     {
         titre : "Azken cubique",
         description : "J'suis nulle au chibi alors j'voulais essayer un autre style !",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -196,7 +196,7 @@ export const ART2024 : SmallImg[] = [
     {
         titre : "Cybèle",
         description : "Je suis partagée sur ce dessin. A la fois, il est stylé et à la fois, quelque chose me perturbe x)",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -208,19 +208,19 @@ export const ART2024 : SmallImg[] = [
     {
         titre : "Mielle",
         description : "Mielle est un personnage que je suis en train de développer avec le petit twist qu'ol est intersexe. C'est la première fois que j'essaie de construire ce type de perso !",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Hegal",
         description : "Je n'ai pas passé beaucoup de temps sur cette illustration mais je l'aime tout de même beaucoup !",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Kerme",
         description : "Cela faisait une éternité que je ne l'avais dessiné et j'ai testé un autre style... et je trouve que ça lui va bien :)",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -244,13 +244,13 @@ export const ART2024 : SmallImg[] = [
     {
         titre : "Oun",
         description : "Un petit chibi de mon griffonet blanc !",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Plantes",
         description : "Quelques plantes pour décorer mon CV.",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -298,13 +298,13 @@ export const ART2024 : SmallImg[] = [
     {
         titre : "Sketch 1",
         description : "Quelques sketchs d'après photo",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Sketch 2",
         description : "Toujours quelques sketchs d'après photo",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -322,55 +322,55 @@ export const ART2024 : SmallImg[] = [
     {
         titre : "Fakemon",
         description : "Je vous en dirais plus dans un prochain projet :)",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Txiki",
         description : "Après que fyrenos ait designé sa forme équine, je me suis décidée à lui faire une référence complète :D",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Choyoné",
         description : "Choyoné est un personnage acquis récemment alors je suis encore en pleine réflexion à son sujet.",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Pygmy",
         description : "Pygmy est un florafelis, une open species que j'aime beaucoup ! En même temps, félin + plante, on ne peut pas faire mieux !",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Buster et Verveine",
         description : "Et voici notre plus ancien couple ensemble sur un page de sketch que j'aime beaucoup. Ne sont-ils pas adorables tous les deux ?",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Txiki",
         description : "Après sa référence, Txiki a le droit à une page de sketch !",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Thoo",
         description : "J'ai fait beaucoup de page de sketch récemment est Thoo n'y a pas échappé !",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Sam",
         description : "J'adore l'effet de lumière de la lanterne, il fallait que je vous le montre !",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Azur",
         description : "Un petit storyboard avec Azur et une nouvelle amie à pois !",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
 ]

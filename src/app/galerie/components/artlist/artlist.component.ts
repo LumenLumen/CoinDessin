@@ -5,6 +5,7 @@ import { ART2022 } from '../../models/2022-mock';
 import { ART2023 } from '../../models/2023-mock';
 import { ART2024 } from '../../models/2024-mock';
 import { ART2025 } from '../../models/2025-mock';
+import { ART2026 } from '../../models/2026-mock';
 import { SmallImg } from '../../models/small-img.model';
 
 @Component({
@@ -43,8 +44,12 @@ export class ArtlistComponent implements OnInit{
       this.art_desc = ART2024 ;
     }
     else if (this.annee == "2025"){
-      this.nb_art = 22 ;
+      this.nb_art = 50 ;
       this.art_desc = ART2025 ;
+    }
+    else if (this.annee == "2026"){
+      this.nb_art = 24 ;
+      this.art_desc = ART2026 ;
     }
     this.listeFichier(); 
   }

@@ -17,7 +17,8 @@ export class EnWebsiteMAJComponent {
       {id: 4, date: "26/10/2024", titre: "Projects appear !", description: "Now, you can see my projects !! The page will be gradually completed since producing and formatting the content takes time ! I hope you will enjoy the first published project however :)", image:"assets/MAJ6.png"},
       {id: 5, date: "10/11/2024", titre: "Inktober + Charity Comm", description: "All Inktober pieces are online ! Feel free to have a look ! Charity commission are here as well... but I need to translate the page eh eh !", image:"assets/MAJ7.png"},
       {id: 6, date: "02/01/2025", titre: "Update gallery + translations", description: "I added a few drawings from 2024 since the year's over now. What's more, I translated or fixed a few things and updated contents in the \"Projects\" section.", image:"assets/MAJ8.png"},
-      {id: 7, date: "21/04/2025", titre: "Big changes", description: "I stop doing commissions so... big update ! The commission page cannot be found anymore and I clean a bit the project page.", image:"assets/MAJ1.png"}
+      {id: 7, date: "21/04/2025", titre: "Big changes", description: "I stop doing commissions so... big update ! The commission page cannot be found anymore and I clean a bit the project page.", image:"assets/MAJ1.png"},
+      {id:10, date: "08/08/2026", titre: "Here again!", description:"After more than a year of inactivity, it's time to work again on this website!", image:"assets/MAJ9.png"},
     ]
   }
 }

@@ -16,7 +16,7 @@ export const ART2021 : SmallImg[] = [
     {
         titre : "Vello",
         description : "Une jolie créature que j'imaginais vivre dans le desert." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : "https://toyhou.se/13253951.vello"
     },
     {
@@ -28,7 +28,7 @@ export const ART2021 : SmallImg[] = [
     {
         titre : "Chauve",
         description : "Des chauves avec le crâne luisant." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -58,7 +58,7 @@ export const ART2021 : SmallImg[] = [
     {
         titre : "BD - Buster & Verveine",
         description : "Une petite planche de mes deux chouchous !" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -94,7 +94,7 @@ export const ART2021 : SmallImg[] = [
     {
         titre : "Günther",
         description : "Un design qui change de ce que je fais de d'habitude eh eh !" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : "https://toyhou.se/13393090.g-nther"
     },
     {
@@ -112,7 +112,7 @@ export const ART2021 : SmallImg[] = [
     {
         titre : "Ochre",
         description : "Un design que j'adore !" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : "https://toyhou.se/13204007.ochre"
     },
     {
@@ -142,7 +142,7 @@ export const ART2021 : SmallImg[] = [
     {
         titre : "Fontaine de sauce tomate",
         description : "Je voulais faire un truc horrible... mais il paraît qu'il est mignon." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -154,7 +154,7 @@ export const ART2021 : SmallImg[] = [
     {
         titre : "Médien à Halloween",
         description : "C'est un dessin que j'ai fait pour un concours de dessin d'Halloween organisé par l'association étudiante de ma coposante universitaire. Je l'aime beaucoup !" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -166,19 +166,19 @@ export const ART2021 : SmallImg[] = [
     {
         titre : "Hérald",
         description : "Un jeune homme maladif créé pour une histoire." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Médien dans tous ses états",
         description : "Ne regardez pas le premier ! Il va absorber votre âme !" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Médien, Hérald & Morgana",
         description : "Encore une petite planche" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -190,7 +190,7 @@ export const ART2021 : SmallImg[] = [
     {
         titre : "Jakin",
         description : "Cette image est resté le fond de mon vieux site Cardd !" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -208,13 +208,13 @@ export const ART2021 : SmallImg[] = [
     {
         titre : "Luma",
         description : "J'aime les champignons." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : "https://toyhou.se/12240381.luma"
     },
     {
         titre : "Mariage de Buster & Verveine",
         description : "Trop bien leur robe, non ?" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -226,7 +226,7 @@ export const ART2021 : SmallImg[] = [
     {
         titre : "Aqueux",
         description : "J'aime bien l'ambiance de ce dessin." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : "https://toyhou.se/12539938.avonlea"
     },
     {
@@ -250,7 +250,7 @@ export const ART2021 : SmallImg[] = [
     {
         titre : "Sketch Pokémon",
         description : "Et voici quelques sketchs de Pokémon de personnage pour une fanfiction" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -286,7 +286,7 @@ export const ART2021 : SmallImg[] = [
     {
         titre : "Seban",
         description : "Un exercice d'ombrage !" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -310,13 +310,13 @@ export const ART2021 : SmallImg[] = [
     {
         titre : "Skecth de mes personnages !",
         description : "Qui est le plus mignon ?" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Redraw d'un strip",
         description : "J'avais publié sur un vieux compte Instagram une histoire dont j'ai décidé de redessiner le début." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -328,13 +328,13 @@ export const ART2021 : SmallImg[] = [
     {
         titre : "Jeu en forêt",
         description : "Avez-vous vu l'écureuil ?" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Yvan en tenue de cérémonie",
         description : "Je cherchais un tenue de cérémonie pour le grand roi Yvan. Les couleurs symbolisent la diversité de son peuple." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {

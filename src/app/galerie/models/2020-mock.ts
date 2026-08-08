@@ -4,7 +4,7 @@ export const ART2020 : SmallImg[] = [
     {
         titre : "Poké fusion",
         description : "Une fusion entre Zébibron et Efflèche." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -52,7 +52,7 @@ export const ART2020 : SmallImg[] = [
     {
         titre : "Hene",
         description : "Hene est la maman de Hegal, j'avais essayé de la designer mais je la ferais sans autrement aujourd'hui." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -70,7 +70,7 @@ export const ART2020 : SmallImg[] = [
     {
         titre : "Jakin & Boule de poil",
         description : "Deux personnages issus d'un roleplay avec Cassiopée ! Je jouais le griffon :)" ,
-        owner : "Lumen & Cassiopée",
+        owner : "Lex & Cassiopée",
         ownerlink : ""
     },
     {
@@ -82,7 +82,7 @@ export const ART2020 : SmallImg[] = [
     {
         titre : "Verveine",
         description : "Mes premiers croquis de Verveine ! Il était destiné à un roleplay organisé par un ami." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -94,7 +94,7 @@ export const ART2020 : SmallImg[] = [
     {
         titre : "Un pôtit prédateur",
         description : "Ce personnage était dédié à un roleplay et il n'a fait qu'une brève apparition au début de l'histoire x)" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : "https://toyhou.se/13191451.-ceres"
     },
     {
@@ -118,7 +118,7 @@ export const ART2020 : SmallImg[] = [
     {
         titre : "Pigné en colère",
         description : "Pigné a le pouvoir de générer des cristaux et là, il est pas content et il les protège." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -130,7 +130,7 @@ export const ART2020 : SmallImg[] = [
     {
         titre : "Jakin",
         description : "Vous saviez que Jakin devait s'appeler Sauge à l'origine ?" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -142,7 +142,7 @@ export const ART2020 : SmallImg[] = [
     {
         titre : "Zorigaitza",
         description : "Admirez-moi cette barbe et ce prénom imprononçable !" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     

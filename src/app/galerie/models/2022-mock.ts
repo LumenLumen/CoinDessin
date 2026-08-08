@@ -28,7 +28,7 @@ export const ART2022 : SmallImg[] = [
     {
         titre : "Sketchs",
         description : "Quelques personnages de roleplay ah ah !" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -40,7 +40,7 @@ export const ART2022 : SmallImg[] = [
     {
         titre : "Ezer",
         description : "Et voici Ezer, enfant, avec un bel oiseau. Je voulais m'entraîner avec la plongée et il y a encore du taf !" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -52,7 +52,7 @@ export const ART2022 : SmallImg[] = [
     {
         titre : "Fÿki",
         description : "Fÿki, un personnage de roleplay dans une style peinture ! J'aime trop le design de ce personnage x3" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -88,25 +88,25 @@ export const ART2022 : SmallImg[] = [
     {
         titre : "Milo",
         description : "Quelques sketchs d'un ancien personnage de roleplay !" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Milo 2",
         description : "Toujours Milo, cette fois dans la nature !" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Naël",
         description : "Petite page d'illustration d'un autre personnage de roleplay (j'en ai eu beaucoup)." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Les chats de Naël",
         description : "Les enfants adoptifs de Naël :)" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -142,13 +142,13 @@ export const ART2022 : SmallImg[] = [
     {
         titre : "Page de sketchs",
         description : "" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Entrainement portraits",
         description : "Zorigaitza et Naël sont mis à contribution pour m'entrainer !" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -166,7 +166,7 @@ export const ART2022 : SmallImg[] = [
     {
         titre : "Petit être des champs",
         description : "Je voulais faire des adoptables à l'époque et j'ai créé ce petit personnage... qui n'a jamais trouvé preneur x)" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {

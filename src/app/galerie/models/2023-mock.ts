@@ -10,7 +10,7 @@ export const ART2023 : SmallImg[] = [
     {
         titre : "Elva",
         description : "J'ai dessiné ce petit portrait sur mon téléphone et je suis super heureuse du résultat pour un truc fait au doigt." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -52,13 +52,13 @@ export const ART2023 : SmallImg[] = [
     {
         titre : "Archive",
         description : "Voici un personnage de roleplay que j'ai très peu joué. C'est une grande faucheuse qui capture les âmes avec un filet à papillon." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Cocorico",
         description : "Ce personnage était un délire entre quelques francophones sur un serveur anglophone... plein de clichés." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -106,13 +106,13 @@ export const ART2023 : SmallImg[] = [
     {
         titre : "Fÿki",
         description : "C'est qui le plus beau ? C'est mon Fÿki !" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Harpy",
         description : "Un sketch qui est resté quelques temps ma photo de profil sur TH." ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -148,7 +148,7 @@ export const ART2023 : SmallImg[] = [
     {
         titre : "Corne empoisonnée",
         description : "Ce pourrait être un Pokémon poison x)" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
@@ -178,13 +178,13 @@ export const ART2023 : SmallImg[] = [
     {
         titre : "Svèlk",
         description : "Ma beauté des neiges :3" ,
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
         titre : "Dieu des parapluies",
         description : "Je ne me souviens plus à quelle occasion j'ai réalisé ce petit dessin, mais c'était un défi avec un prompt il me semble. Je l'aime tellement que c'est l'image de mon serveur pour l'année 2024 !",
-        owner : "Lumen",
+        owner : "Lex",
         ownerlink : ""
     },
     {
